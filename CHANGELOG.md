@@ -1,0 +1,144 @@
+# Changelog
+
+All notable changes to the **Agrovia** WordPress theme will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2026-10-01
+
+### Added
+- **Phase 1: Theme Foundation**
+  - Standalone WordPress theme structure (zero parent-theme dependencies).
+  - Production-ready `style.css` with standard WordPress headers and theme declarations.
+  - Modular `functions.php` bootstrap orchestrating dedicated `inc/` components.
+  - Core setup in `inc/setup.php` (title tag, custom logo, post thumbnails, HTML5 support, responsive embeds, align wide).
+  - Safe asset pipeline in `inc/enqueue.php` loading modular CSS and deferred JS.
+  - Template helper functions and semantic tags in `inc/template-functions.php` and `inc/template-tags.php`.
+  - Stubs for menus, widgets, accessibility, compatibility, Elementor, and WooCommerce.
+  - Semantic fallback shells in `index.php`, `header.php`, and `footer.php`.
+  - Fallback template parts (`content.php`, `content-none.php`, `pagination.php`).
+  - Baseline CSS variables matching the Agrovia color palette and typography in `assets/css/base.css`.
+  - Theme screenshot and documentation.
+- **Phase 2: Template Hierarchy**
+  - Front page template (`front-page.php`) supporting static front pages and dynamic latest posts.
+  - Blog/Journal index template (`home.php`) with editorial journal header and dynamic post stream.
+  - Standard page template (`page.php`) and template part (`template-parts/content-page.php`) with Elementor canvas awareness.
+  - Single article template (`single.php`) with Elementor Theme Builder check, post navigation, and rich editorial template part (`template-parts/content-single.php`).
+  - Taxonomy and date archive template (`archive.php`) with Elementor Theme Builder check and fallback.
+  - Search results template (`search.php`) and card template part (`template-parts/content-search.php`).
+  - 404 error template (`404.php`) with agricultural editorial styling and search recovery.
+  - Standard WordPress comments template (`comments.php`) with accessible list and styled comment form.
+  - Primary sidebar template (`sidebar.php`).
+  - Added components CSS for single posts, blockquotes, author bio cards, comments list, forms, and post navigation.
+- **Phase 3: Dynamic Navigation + Branding**
+  - Custom accessible navigation walker (`Agrovia_Nav_Walker` in `inc/menus.php`) with ARIA dropdown buttons and deep nesting support.
+  - Graceful fallback menu (`agrovia_default_menu`) when no WordPress menu is assigned.
+  - Interactive mobile drawer with focus trap, backdrop overlay, body scroll lock, and ESC dismiss in `assets/js/navigation.js`.
+  - Submenu accordion toggle behavior for mobile devices.
+  - Theme Customizer module (`inc/customizer.php`) providing site identity selective refresh, header CTA button options, and dynamic footer copyright customization.
+  - Customizer live preview script (`assets/js/customizer.js`) for instant styling updates.
+  - Navigation CSS updates with responsive drawer styles, mobile toggle animation, and backdrop filter.
+- **Phase 4: Assets + CSS Architecture**
+  - Expanded `assets/css/base.css` with complete HTML baseline (tables, pre/code blocks, lists, details, blockquotes) and `prefers-reduced-motion` a11y support.
+  - Enhanced `assets/css/components.css` with button variants (`.btn-primary`, `.btn-secondary`, `.btn-outline`, `.btn-accent`, `.btn-white`, `.btn-sm`, `.btn-lg`, `.btn-pill`), agricultural impact statistics cards (`.stat-card`, `.stat-number`), approach cards, process timeline (`.process-timeline`), dark technology surfaces (`.tech-surface`, `.tech-card`), and alert banners.
+  - Built comprehensive `assets/css/utilities.css` containing responsive CSS grids, flexbox alignments, spacing scale (margins/paddings), typography, and color utilities.
+  - Synchronized `assets/css/editor.css` to match WordPress block editor typography, colors, quotes, and buttons with the frontend design tokens.
+- **Phase 5: theme.json**
+  - Created canonical `theme.json` (version 3 schema) unifying Agrovia design tokens across the WordPress ecosystem.
+  - Configured custom color palette: Deep Forest Green, Dark Moss, Muted Sage, Warm Cream, Earth Brown, Soft Sand, Off White, Surface White, Charcoal text, and contextual status colors.
+  - Defined fluid typography scales with Cormorant Garamond for headings/display and Inter for body copy.
+  - Configured layout container widths (1280px standard content, 1440px wide).
+  - Defined spacing scale, shadow presets, element styles (headings, links, buttons), and core block styles (quote, pullquote, code, table).
+- **Phase 6: Elementor Compatibility**
+  - Modularized header and footer fallbacks into `template-parts/header/site.php` and `template-parts/footer/site.php`.
+  - Re-architected `header.php` and `footer.php` to preserve the HTML document shell while delegating site parts to Elementor Theme Builder locations (`header`, `footer`) safely via `agrovia_elementor_do_location()`.
+  - Upgraded `inc/elementor.php` with safe detection helpers (`agrovia_is_elementor_active`, `agrovia_is_elementor_pro_active`, `agrovia_is_elementor_preview`, `agrovia_is_built_with_elementor`).
+  - Registered core Elementor Theme Builder locations (`header`, `footer`, `single`, `archive`).
+  - Added body class filters and CSS overrides for Elementor Canvas and Elementor Full Width templates to eliminate unwanted theme container margins.
+  - Linked Elementor Global CSS tokens (`--e-global-*`) to Agrovia brand design tokens.
+- **Phase 7: WooCommerce Compatibility**
+  - Declared full WooCommerce theme support, image sizes (480px catalog, 800px single), and product gallery zoom, lightbox, and slider in `inc/woocommerce.php`.
+  - Replaced WooCommerce default wrappers with Agrovia semantic container hooks (`agrovia_woocommerce_wrapper_before`, `agrovia_woocommerce_wrapper_after`).
+  - Added shop filters for loop columns (3 columns), products per page (9 products), and related products grid.
+  - Implemented dynamic AJAX mini-cart count fragment (`agrovia_woocommerce_cart_link_fragment`) and cart link helper.
+  - Created dedicated `assets/css/woocommerce.css` providing editorial styling for shop grids, product cards, price tags, sale badges, quantity inputs, cart table, checkout two-column layout, and WooCommerce notices.
+  - Conditionally enqueued WooCommerce stylesheet in `inc/enqueue.php` only when store pages are actively rendered, eliminating CSS bloat on non-store pages.
+- **Phase 8: Companion Plugin Foundation**
+  - Architected decoupled companion plugin `agrovia-core` in `companion-plugin/agrovia-core/` and linked to `wp-content/plugins/agrovia-core`.
+  - Implemented singleton lifecycle orchestrator (`Agrovia_Core`) in `includes/class-plugin.php` and entry file `agrovia-core.php`.
+  - Created environment compatibility checks (`Agrovia_Core_Compatibility`) for PHP 7.4+ and WordPress 6.0+ with administrative warning notices.
+  - Registered custom post type `agrovia_practice` ("Farm Practices") with hierarchical taxonomy `practice_category` in `includes/post-types/class-farm-practice-cpt.php` to safeguard agricultural methods across theme switches.
+  - Registered custom post type `agrovia_team` ("Farmers & Team") with hierarchical taxonomy `team_department` in `includes/post-types/class-team-cpt.php` for agronomists, farm hands, and soil specialists.
+  - Added Elementor integration bridge (`Agrovia_Core_Elementor_Manager`) in `includes/class-elementor-manager.php` registering custom widget category `agrovia-elements` with graceful fallback when Elementor is absent.
+  - Provided complete plugin documentation (`README.md`, `CHANGELOG.md`, and gettext translation template `languages/agrovia-core.pot`).
+- **Phase 9: Custom Elementor Widgets**
+  - Engineered 6 custom Elementor widgets in `companion-plugin/agrovia-core/widgets/` specifically tailored to sustainable agriculture and the Agrovia design system:
+    - `Agrovia_Hero_Widget` (`agrovia_hero`): High-impact cinematic banner with backdrop blur badges, multiline headlines, and dual CTA buttons.
+    - `Agrovia_Stats_Widget` (`agrovia_stats`): Metric cards displaying acres farmed, water savings, trees planted, and waste diverted.
+    - `Agrovia_Approach_Cards_Widget` (`agrovia_approach_cards`): Four-pillar sustainable farming cards (Regenerative, Water Smart, Biodiversity, Circular).
+    - `Agrovia_Process_Timeline_Widget` (`agrovia_process_timeline`): 5-step closed-loop agricultural cycle from Soil to Harvest and Restoration.
+    - `Agrovia_Produce_Grid_Widget` (`agrovia_produce_grid`): Editorial harvest showcase with category tags, seasonality badges, and responsive columns.
+    - `Agrovia_Team_Widget` (`agrovia_team`): Farmer and specialist showcase supporting dynamic query from `agrovia_team` CPT or manual repeater.
+  - Registered widgets via modern `elementor/widgets/register` hook with backward compatibility fallback.
+- **Phase 10: Design-System Implementation**
+  - Generated canonical machine-readable design specification in `design/tokens.json` in accordance with section 72 of `AI-THEME-SPEC.md`.
+  - Harmonized token definitions across all 4 key project layers: `design/tokens.json`, `theme.json`, theme CSS custom properties (`style.css`), and companion plugin widget styles (`companion-plugin/agrovia-core/assets/css/widgets.css`).
+  - Unified Elementor Global styles mapping (`--e-global-color-*` and `--e-global-typography-*`) ensuring seamless aesthetic alignment across classic templates, block editor, and Elementor pages.
+  - Documented design token governance, single source-of-truth flow, and color/typography roles in `design/README.md`.
+- **Phase 11: Demo / Elementor Kit Specification**
+  - Built comprehensive Elementor Website Kit specification in `kits/agrovia-demo/` conforming to sections 10, 73, and 74 of `AI-THEME-SPEC.md`.
+  - Authored machine-readable kit manifest (`manifest.json`) and human-readable release manifest (`MANIFEST.md`) recording version dependencies, templates, and content mappings.
+  - Generated Elementor Site Settings export specification (`site-settings.json`) enforcing global color tokens, global font pairings, and Theme Style button/layout rules.
+  - Formulated full demo content specification (`demo-content.json`) with agricultural copy for 8 essential pages: Home, About Our Mission, Our Farm & Ecosystem, Sustainable Practices, Fresh Harvest & Produce, Environmental Impact Report, Farm Journal, and Contact & Visit.
+  - Designed Theme Builder template schemas in `kits/agrovia-demo/templates/` for Header, Footer, Single Post, Archive, 404, and Single Product layouts.
+  - Provided step-by-step kit import guide and post-import verification checklist in `kits/agrovia-demo/README.md`.
+- **Phase 12: Accessibility + Security Hardening**
+  - Created accessible `searchform.php` featuring unique input IDs (`wp_unique_id`), screen-reader text labels, and ARIA submit button icon markup.
+  - Enhanced `inc/accessibility.php` with `aria-current="page"` menu link filtering, post navigation landmark labels (`aria-label="Posts navigation"`), structured archive titles, and WCAG-compliant comment form headers.
+  - Hardened output escaping in `inc/template-tags.php` with `wp_kses` and explicit allowed tag matrices across `agrovia_posted_on()`, `agrovia_posted_by()`, and `agrovia_entry_footer()`.
+  - Upgraded `template-parts/content-single.php` using `wp_kses_post()` on taxonomy tag lists and `comments.php` with safe dynamic string escaping.
+  - Hardened `template-parts/content-search.php` with contextual `aria-label` on search result links and safe query formatting in `search.php`.
+  - Implemented secure Member Role meta box in `Agrovia_Team_CPT` (`class-team-cpt.php`) equipped with CSRF nonce verification, autosave bypass, capability authorization (`edit_post`), and `sanitize_text_field()` input validation.
+  - Verified 100% template compliance with `#primary` skip-to-content landmarks, `:focus-visible` outlines, and `prefers-reduced-motion` a11y media queries.
+- **Phase 13: Performance Optimization**
+  - Implemented responsive image sizes calculation via `wp_calculate_image_sizes` filter in `inc/setup.php` (calibrating `agrovia-card`, `agrovia-featured`, and `agrovia-portrait` to true device viewport fractions).
+  - Added `fetchpriority="high"` to single post featured hero images in `inc/template-tags.php` to accelerate Largest Contentful Paint (LCP).
+  - Integrated script deferral filter `script_loader_tag` in `inc/enqueue.php` ensuring `defer` execution for non-blocking theme scripts.
+  - Cleaned up `<head>` by removing unnecessary legacy tags (`rsd_link`, `wlwmanifest_link`, `wp_generator`) to reduce document weight and suppress automated core version detection.
+  - Ensured Google Fonts pipeline uses `display=swap` alongside `preconnect` and `dns-prefetch` resource hints to minimize layout shifts.
+  - Preserved conditional asset isolation: WooCommerce CSS enqueued solely on store views and Elementor widget CSS enqueued only during Elementor rendering.
+- **Phase 14: Documentation**
+  - Produced comprehensive documentation suite in `documentation/` conforming to section 75 of `AI-THEME-SPEC.md`:
+    - `README.md`: Central documentation directory index.
+    - `installation.md`: System requirements, theme installation, companion plugin activation, and quick start setup.
+    - `customization.md`: Theme Customizer controls, design token hierarchy, and `theme.json` styling.
+    - `elementor.md`: Theme Builder locations, canvas/full-width templates, and Website Kit import guide.
+    - `widgets.md`: Full technical reference for all 6 custom Elementor widgets in `agrovia-core`.
+    - `woocommerce.md`: E-commerce store setup, wrapper architecture, loop filters, and mini-cart integration.
+    - `troubleshooting.md`: Step-by-step FAQ and solutions for rewrite rules, Elementor safe mode, memory limits, and debug logs.
+    - `hooks-reference.md`: Exhaustive developer API of theme action hooks, filters, and helper functions.
+  - Updated primary theme `README.md` with links to the full documentation library.
+- **Phase 15: Automated / Static Checks**
+  - Built standalone POT generator `scripts/generate-pot.php` extracting 76 unique translatable strings for `languages/agrovia.pot` and 266 unique strings for `companion-plugin/agrovia-core/languages/agrovia-core.pot`.
+  - Built master static checks runner `scripts/static-checks.php` executing 59 comprehensive verification tests across 8 automated quality suites.
+  - Validated PHP syntax across all 45 `.php` files in theme and companion plugin with 0 syntax errors (`php -l`).
+  - Audited direct access prevention (`defined( 'ABSPATH' ) || exit;`) across all 45 PHP files.
+  - Verified literal text domain consistency (`'agrovia'` in theme, `'agrovia-core'` in companion plugin) across all internationalization function calls (`__()`, `_e()`, `_x()`, `_n()`, `esc_html__()`, etc.).
+  - Added standard WordPress formatted `readme.txt` to both theme root and companion plugin directory (`companion-plugin/agrovia-core/readme.txt`).
+  - Verified structural integrity and brace balance across all 7 CSS stylesheets.
+  - Verified ES syntax on all JavaScript assets using `node -c`.
+  - Validated JSON integrity on 12 schema/configuration files (`theme.json`, `design/tokens.json`, and all 9 Elementor Website Kit files).
+  - Wired `npm test`, `npm run lint:php`, `npm run lint:js`, and `npm run generate:pot` scripts in `package.json`.
+- **Phase 16: Full QA and Release Packaging (Final Phase)**
+  - Executed full QA verification across all 8 acceptance dimensions: WordPress core, Elementor Theme Builder, companion plugin, WooCommerce, security hardening, accessibility, performance, and release packaging.
+  - Published comprehensive QA Acceptance checklist and 100% sign-off matrix in `documentation/qa-checklist.md`.
+  - Audited all third-party dependencies, open source licenses, fonts (Cormorant Garamond, Inter - OFL-1.1), and SVG assets in `documentation/third-party-licenses.md`.
+  - Developed automated commercial release packaging script `scripts/package-release.php` wired to `npm run package:release`.
+  - Built clean standalone theme production archive: `release/agrovia.zip` (61 files, 116.5 KB) excluding dev files, VCS, and companion directories.
+  - Built clean standalone companion plugin production archive: `release/agrovia-core.zip` (25 files, 37.4 KB) ready for direct WordPress installation.
+  - Built standalone Elementor Website Kit production archive: `release/agrovia-demo-kit.zip` (12 files, 10.2 KB) with manifest, settings, and templates.
+  - Built master distribution package: `release/agrovia-complete-package-v1.0.0.zip` (190.6 KB) bundling theme, plugin, demo kit, and full documentation suite.
+  - Verified archive structural integrity and file readability with automated post-build verification.
+  - Completed all 16 phases of the commercial theme specification (`AI-THEME-SPEC.md`).
+

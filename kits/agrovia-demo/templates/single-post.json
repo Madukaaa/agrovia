@@ -1,0 +1,26 @@
+{
+	"title": "Agrovia Single Post Template",
+	"type": "single-post",
+	"location": "single",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "post"
+		}
+	],
+	"structure": {
+		"container": {
+			"max_width": "860px",
+			"padding": { "top": "60px", "bottom": "80px" }
+		},
+		"elements": [
+			{ "widget": "post-info", "items": ["categories", "date", "reading-time"] },
+			{ "widget": "theme-post-title", "tag": "h1" },
+			{ "widget": "theme-post-featured-image", "aspect_ratio": "16:9" },
+			{ "widget": "theme-post-content" },
+			{ "widget": "post-navigation" },
+			{ "widget": "author-box" },
+			{ "widget": "post-comments" }
+		]
+	}
+}

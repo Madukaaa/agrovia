@@ -1,0 +1,338 @@
+/**
+ * Agrovia WooCommerce Stylesheet
+ *
+ * Provides a clean, editorial aesthetic for WooCommerce pages,
+ * matching Agrovia's sustainable agriculture brand identity.
+ *
+ * @package Agrovia
+ * @since 1.0.0
+ */
+
+/* ==========================================================================
+   Store Container & Header
+   ========================================================================== */
+.site-main-woocommerce {
+	padding-top: var(--agrovia-space-2xl);
+	padding-bottom: var(--agrovia-space-4xl);
+}
+
+.woocommerce-products-header__title.page-title {
+	font-family: var(--agrovia-font-heading);
+	font-size: clamp(2rem, 4vw, 3rem);
+	text-align: center;
+	color: var(--agrovia-color-primary);
+	margin-bottom: var(--agrovia-space-lg);
+}
+
+.woocommerce-result-count,
+.woocommerce-ordering {
+	margin-bottom: var(--agrovia-space-xl);
+	font-size: 0.875rem;
+	color: var(--agrovia-color-text-muted);
+}
+
+/* ==========================================================================
+   Product Grid & Cards
+   ========================================================================== */
+ul.products {
+	display: grid !important;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: var(--agrovia-space-xl);
+	list-style: none !important;
+	padding: 0 !important;
+	margin: 0 0 var(--agrovia-space-3xl) 0 !important;
+}
+
+ul.products::before,
+ul.products::after {
+	content: none !important;
+}
+
+li.product {
+	background-color: var(--agrovia-color-surface);
+	border: 1px solid var(--agrovia-color-border);
+	border-radius: var(--agrovia-radius-md);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	transition: transform var(--agrovia-transition-base), box-shadow var(--agrovia-transition-base), border-color var(--agrovia-transition-base);
+	margin: 0 !important;
+	width: auto !important;
+	float: none !important;
+}
+
+li.product:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--agrovia-shadow-md);
+	border-color: var(--agrovia-color-secondary);
+}
+
+li.product .woocommerce-loop-product__link {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+	padding: var(--agrovia-space-lg);
+	flex-grow: 1;
+}
+
+li.product img {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	border-radius: var(--agrovia-radius-sm);
+	margin-bottom: var(--agrovia-space-md) !important;
+	transition: transform var(--agrovia-transition-smooth);
+}
+
+li.product:hover img {
+	transform: scale(1.03);
+}
+
+li.product .woocommerce-loop-product__title {
+	font-family: var(--agrovia-font-heading);
+	font-size: 1.35rem !important;
+	color: var(--agrovia-color-primary) !important;
+	font-weight: 600;
+	margin: 0 0 0.5rem 0 !important;
+	line-height: 1.25;
+}
+
+/* Sale Badge */
+span.onsale {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background-color: var(--agrovia-color-cream) !important;
+	color: var(--agrovia-color-primary) !important;
+	font-family: var(--agrovia-font-body) !important;
+	font-size: 0.6875rem !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 0.25rem 0.625rem !important;
+	border-radius: var(--agrovia-radius-pill) !important;
+	line-height: 1.4 !important;
+	min-height: auto !important;
+	min-width: auto !important;
+	z-index: 2;
+}
+
+/* Price */
+.price {
+	font-family: var(--agrovia-font-body);
+	font-size: 1.1rem !important;
+	font-weight: 700;
+	color: var(--agrovia-color-primary) !important;
+	margin-bottom: var(--agrovia-space-md) !important;
+}
+
+.price del {
+	color: var(--agrovia-color-text-muted);
+	font-weight: 400;
+	font-size: 0.9em;
+	margin-right: 0.35rem;
+}
+
+.price ins {
+	text-decoration: none;
+}
+
+/* Add to Cart Button */
+li.product .button {
+	margin: 0 var(--agrovia-space-lg) var(--agrovia-space-lg) !important;
+	background-color: var(--agrovia-color-primary) !important;
+	color: #ffffff !important;
+	font-size: 0.875rem !important;
+	font-weight: 600 !important;
+	border-radius: var(--agrovia-radius-md) !important;
+	text-align: center;
+	padding: 0.625rem 1.25rem !important;
+	transition: background-color var(--agrovia-transition-fast), transform var(--agrovia-transition-fast);
+}
+
+li.product .button:hover {
+	background-color: var(--agrovia-color-secondary) !important;
+	transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   Single Product Layout
+   ========================================================================== */
+.woocommerce div.product {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--agrovia-space-3xl);
+	margin-bottom: var(--agrovia-space-4xl);
+}
+
+@media (max-width: 768px) {
+	.woocommerce div.product {
+		grid-template-columns: 1fr;
+		gap: var(--agrovia-space-xl);
+	}
+}
+
+.woocommerce div.product div.images {
+	float: none !important;
+	width: 100% !important;
+	margin-bottom: 0 !important;
+}
+
+.woocommerce div.product div.images img {
+	border-radius: var(--agrovia-radius-lg);
+}
+
+.woocommerce div.product div.summary {
+	float: none !important;
+	width: 100% !important;
+}
+
+.woocommerce div.product .product_title {
+	font-size: clamp(2rem, 3.5vw, 2.75rem);
+	line-height: 1.15;
+	margin-bottom: var(--agrovia-space-sm);
+}
+
+.woocommerce div.product .price {
+	font-size: 1.5rem !important;
+	margin-bottom: var(--agrovia-space-lg) !important;
+}
+
+.woocommerce div.product form.cart {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: var(--agrovia-space-xl) 0 !important;
+}
+
+.woocommerce div.product form.cart .quantity input.qty {
+	padding: 0.75rem 1rem;
+	border-radius: var(--agrovia-radius-md);
+	border: 1px solid var(--agrovia-color-border);
+	font-weight: 600;
+	width: 4.5rem;
+}
+
+.woocommerce div.product form.cart button.single_add_to_cart_button {
+	background-color: var(--agrovia-color-primary) !important;
+	color: #ffffff !important;
+	padding: 0.875rem 2rem !important;
+	font-size: 1rem !important;
+	border-radius: var(--agrovia-radius-md) !important;
+}
+
+.woocommerce div.product form.cart button.single_add_to_cart_button:hover {
+	background-color: var(--agrovia-color-secondary) !important;
+}
+
+/* Tabs */
+.woocommerce-tabs {
+	grid-column: 1 / -1;
+	border-top: 1px solid var(--agrovia-color-border);
+	padding-top: var(--agrovia-space-3xl);
+}
+
+.woocommerce-tabs ul.tabs {
+	display: flex !important;
+	gap: 1rem;
+	list-style: none !important;
+	padding: 0 !important;
+	border-bottom: 1px solid var(--agrovia-color-border) !important;
+	margin-bottom: var(--agrovia-space-xl) !important;
+}
+
+.woocommerce-tabs ul.tabs li {
+	background: none !important;
+	border: none !important;
+	padding: 0.5rem 1rem !important;
+	margin: 0 !important;
+}
+
+.woocommerce-tabs ul.tabs li a {
+	font-family: var(--agrovia-font-heading);
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--agrovia-color-text-muted) !important;
+	text-decoration: none;
+}
+
+.woocommerce-tabs ul.tabs li.active a {
+	color: var(--agrovia-color-primary) !important;
+	border-bottom: 2px solid var(--agrovia-color-primary);
+}
+
+/* ==========================================================================
+   Cart & Checkout Pages
+   ========================================================================== */
+.woocommerce table.shop_table {
+	border-collapse: collapse;
+	border: 1px solid var(--agrovia-color-border);
+	border-radius: var(--agrovia-radius-md);
+	background-color: var(--agrovia-color-surface);
+}
+
+.woocommerce table.shop_table th {
+	background-color: var(--agrovia-color-cream);
+	font-family: var(--agrovia-font-heading);
+	font-size: 1.15rem;
+	color: var(--agrovia-color-primary);
+}
+
+.cart-collaterals .cart_totals {
+	background-color: var(--agrovia-color-surface);
+	border: 1px solid var(--agrovia-color-border);
+	border-radius: var(--agrovia-radius-md);
+	padding: var(--agrovia-space-xl);
+}
+
+.checkout-button,
+#place_order {
+	background-color: var(--agrovia-color-primary) !important;
+	color: #ffffff !important;
+	font-size: 1.05rem !important;
+	font-weight: 600 !important;
+	padding: 1rem 2rem !important;
+	border-radius: var(--agrovia-radius-md) !important;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#place_order:hover,
+.checkout-button:hover {
+	background-color: var(--agrovia-color-secondary) !important;
+}
+
+/* ==========================================================================
+   WooCommerce Notices
+   ========================================================================== */
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+	padding: 1rem 1.5rem !important;
+	border-radius: var(--agrovia-radius-md) !important;
+	margin-bottom: var(--agrovia-space-xl) !important;
+	font-size: 0.9375rem;
+	display: flex;
+	align-items: center;
+}
+
+.woocommerce-message {
+	background-color: #e8f5e9 !important;
+	color: #1b5e20 !important;
+	border-left: 4px solid var(--agrovia-color-primary) !important;
+}
+
+.woocommerce-info {
+	background-color: #e1f5fe !important;
+	color: #01579b !important;
+	border-left: 4px solid #0288d1 !important;
+}
+
+.woocommerce-error {
+	background-color: #ffebee !important;
+	color: #b71c1c !important;
+	border-left: 4px solid #d32f2f !important;
+}

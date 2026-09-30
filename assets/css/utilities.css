@@ -1,0 +1,170 @@
+/**
+ * Agrovia Utilities Stylesheet
+ *
+ * Lightweight, functional utilities for grid, flex, spacing, text, and color.
+ *
+ * @package Agrovia
+ * @since 1.0.0
+ */
+
+/* ==========================================================================
+   CSS Grid Helpers
+   ========================================================================== */
+.grid {
+	display: grid;
+}
+
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+@media (min-width: 768px) {
+	.grid-cols-md-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.grid-cols-md-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+	.grid-cols-lg-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.grid-cols-lg-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.gap-xs  { gap: var(--agrovia-space-xs); }
+.gap-sm  { gap: var(--agrovia-space-sm); }
+.gap-md  { gap: var(--agrovia-space-md); }
+.gap-lg  { gap: var(--agrovia-space-lg); }
+.gap-xl  { gap: var(--agrovia-space-xl); }
+.gap-2xl { gap: var(--agrovia-space-2xl); }
+
+/* ==========================================================================
+   Display & Flexbox
+   ========================================================================== */
+.d-flex         { display: flex; }
+.d-inline-flex  { display: inline-flex; }
+.d-block        { display: block; }
+.d-inline-block { display: inline-block; }
+.d-none         { display: none; }
+
+.flex-column    { flex-direction: column; }
+.flex-row       { flex-direction: row; }
+.flex-wrap      { flex-wrap: wrap; }
+.flex-nowrap    { flex-wrap: nowrap; }
+
+.items-start    { align-items: flex-start; }
+.items-center   { align-items: center; }
+.items-end      { align-items: flex-end; }
+.items-stretch  { align-items: stretch; }
+
+.justify-start   { justify-content: flex-start; }
+.justify-center  { justify-content: center; }
+.justify-end     { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around  { justify-content: space-around; }
+
+.flex-grow-1 { flex-grow: 1; }
+.flex-shrink-0 { flex-shrink: 0; }
+
+/* ==========================================================================
+   Text & Alignment
+   ========================================================================== */
+.text-left   { text-align: left; }
+.text-center { text-align: center; }
+.text-right  { text-align: right; }
+
+.text-primary   { color: var(--agrovia-color-primary); }
+.text-secondary { color: var(--agrovia-color-secondary); }
+.text-accent    { color: var(--agrovia-color-accent); }
+.text-cream     { color: var(--agrovia-color-cream); }
+.text-muted     { color: var(--agrovia-color-text-muted); }
+.text-white     { color: #ffffff; }
+
+.font-serif { font-family: var(--agrovia-font-heading); }
+.font-sans  { font-family: var(--agrovia-font-body); }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.uppercase { text-transform: uppercase; }
+.tracking-wide { letter-spacing: 0.05em; }
+
+/* ==========================================================================
+   Background Colors
+   ========================================================================== */
+.bg-primary   { background-color: var(--agrovia-color-primary); color: #ffffff; }
+.bg-secondary { background-color: var(--agrovia-color-secondary); color: #ffffff; }
+.bg-cream     { background-color: var(--agrovia-color-cream); color: var(--agrovia-color-text); }
+.bg-surface   { background-color: var(--agrovia-color-surface); }
+.bg-sand      { background-color: var(--agrovia-color-sand); color: var(--agrovia-color-primary); }
+.bg-offwhite  { background-color: var(--agrovia-color-bg); }
+
+/* ==========================================================================
+   Spacing: Margins & Padding
+   ========================================================================== */
+.m-0  { margin: 0; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mt-0   { margin-top: 0; }
+.mt-xs  { margin-top: var(--agrovia-space-xs); }
+.mt-sm  { margin-top: var(--agrovia-space-sm); }
+.mt-md  { margin-top: var(--agrovia-space-md); }
+.mt-lg  { margin-top: var(--agrovia-space-lg); }
+.mt-xl  { margin-top: var(--agrovia-space-xl); }
+.mt-2xl { margin-top: var(--agrovia-space-2xl); }
+.mt-3xl { margin-top: var(--agrovia-space-3xl); }
+.mt-4xl { margin-top: var(--agrovia-space-4xl); }
+
+.mb-0   { margin-bottom: 0; }
+.mb-xs  { margin-bottom: var(--agrovia-space-xs); }
+.mb-sm  { margin-bottom: var(--agrovia-space-sm); }
+.mb-md  { margin-bottom: var(--agrovia-space-md); }
+.mb-lg  { margin-bottom: var(--agrovia-space-lg); }
+.mb-xl  { margin-bottom: var(--agrovia-space-xl); }
+.mb-2xl { margin-bottom: var(--agrovia-space-2xl); }
+.mb-3xl { margin-bottom: var(--agrovia-space-3xl); }
+.mb-4xl { margin-bottom: var(--agrovia-space-4xl); }
+
+.p-0   { padding: 0; }
+.p-sm  { padding: var(--agrovia-space-sm); }
+.p-md  { padding: var(--agrovia-space-md); }
+.p-lg  { padding: var(--agrovia-space-lg); }
+.p-xl  { padding: var(--agrovia-space-xl); }
+.p-2xl { padding: var(--agrovia-space-2xl); }
+
+.py-sm  { padding-top: var(--agrovia-space-sm); padding-bottom: var(--agrovia-space-sm); }
+.py-md  { padding-top: var(--agrovia-space-md); padding-bottom: var(--agrovia-space-md); }
+.py-lg  { padding-top: var(--agrovia-space-lg); padding-bottom: var(--agrovia-space-lg); }
+.py-xl  { padding-top: var(--agrovia-space-xl); padding-bottom: var(--agrovia-space-xl); }
+.py-2xl { padding-top: var(--agrovia-space-2xl); padding-bottom: var(--agrovia-space-2xl); }
+.py-3xl { padding-top: var(--agrovia-space-3xl); padding-bottom: var(--agrovia-space-3xl); }
+.py-4xl { padding-top: var(--agrovia-space-4xl); padding-bottom: var(--agrovia-space-4xl); }
+
+/* ==========================================================================
+   Dimensions & Sizing
+   ========================================================================== */
+.w-100 { width: 100%; }
+.max-w-prose { max-width: 65ch; }
+
+.rounded-sm   { border-radius: var(--agrovia-radius-sm); }
+.rounded-md   { border-radius: var(--agrovia-radius-md); }
+.rounded-lg   { border-radius: var(--agrovia-radius-lg); }
+.rounded-pill { border-radius: var(--agrovia-radius-pill); }
+
+.shadow-sm { box-shadow: var(--agrovia-shadow-sm); }
+.shadow-md { box-shadow: var(--agrovia-shadow-md); }
+.shadow-lg { box-shadow: var(--agrovia-shadow-lg); }
+
+/* ==========================================================================
+   Responsive Visibility
+   ========================================================================== */
+@media (max-width: 767px) {
+	.hide-mobile { display: none !important; }
+}
+
+@media (min-width: 768px) {
+	.show-mobile-only { display: none !important; }
+}
+
+@media (min-width: 1024px) {
+	.hide-desktop { display: none !important; }
+}

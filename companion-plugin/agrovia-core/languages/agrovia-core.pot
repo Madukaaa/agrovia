@@ -1,0 +1,1152 @@
+# Copyright (C) 2026 Maduka Karunathilake
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Agrovia Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://agrovia.local\n"
+"Last-Translator: Maduka Karunathilake <support@agrovia.local>\n"
+"Language-Team: English <support@agrovia.local>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-30T21:53:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Agrovia POT Generator 1.0.0\n"
+"X-Domain: agrovia-core\n"
+
+#: widgets/class-hero-widget.php:81
+msgid "100% REGENERATIVE AGRICULTURE"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:91
+msgid "A different way to grow."
+msgstr ""
+
+#: widgets/class-stats-widget.php:127
+#: widgets/class-stats-widget.php:151
+msgid "ACRES FARMED"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:95
+msgid "Add New Category"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:93
+msgid "Add New Department"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:42
+msgid "Add New Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:42
+msgid "Add New Member"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:41
+msgid "Add New Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:43
+msgid "Add New Team Member"
+msgstr ""
+
+#: widgets/class-team-widget.php:223
+msgid "AgriTech & IoT Specialist"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:272
+msgid "Agricultural Process"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:209
+msgid "Agricultural residues and organic by-products are cycled back into rich compost and renewable solar power."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:36
+msgid "Agrovia Approach Cards"
+msgstr ""
+
+#: includes/class-compatibility.php:51
+msgid "Agrovia Core requires PHP version %1$s or higher. Your server is running version %2$s. Please upgrade your PHP configuration."
+msgstr ""
+
+#: includes/class-compatibility.php:69
+msgid "Agrovia Core requires WordPress version %1$s or higher. You are running version %2$s. Please update WordPress."
+msgstr ""
+
+#: includes/class-elementor-manager.php:55
+msgid "Agrovia Elements"
+msgstr ""
+
+#: widgets/class-team-widget.php:37
+msgid "Agrovia Farmers & Team"
+msgstr ""
+
+#: widgets/class-hero-widget.php:36
+msgid "Agrovia Hero"
+msgstr ""
+
+#: widgets/class-stats-widget.php:37
+msgid "Agrovia Impact Stats"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:35
+msgid "Agrovia Process Timeline"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:36
+msgid "Agrovia Produce Grid"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:90
+msgid "All Categories"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:88
+msgid "All Departments"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:46
+msgid "All Farm Practices"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:47
+msgid "All Team Members"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:113
+msgid "Approach Cards"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:208
+msgid "Aromatic culinary herbs grown in integrated companion-planting rows."
+msgstr ""
+
+#: widgets/class-hero-widget.php:278
+msgid "Background"
+msgstr ""
+
+#: widgets/class-hero-widget.php:79
+#: widgets/class-hero-widget.php:312
+msgid "Badge / Tagline"
+msgstr ""
+
+#: widgets/class-hero-widget.php:321
+msgid "Badge Color"
+msgstr ""
+
+#: widgets/class-team-widget.php:102
+msgid "Behind every harvest is a dedicated team of agronomists, soil biologists, and growers committed to regenerative stewardship."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:201
+msgid "Biodiversity"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:300
+#: widgets/class-stats-widget.php:257
+msgid "Border Color"
+msgstr ""
+
+#: widgets/class-stats-widget.php:138
+msgid "Brief descriptive context..."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:205
+msgid "CULINARY HERBS"
+msgstr ""
+
+#: widgets/class-hero-widget.php:129
+msgid "Call To Action Buttons"
+msgstr ""
+
+#: widgets/class-team-widget.php:298
+#: widgets/class-produce-grid-widget.php:278
+msgid "Card & Typography"
+msgstr ""
+
+#: widgets/class-stats-widget.php:237
+msgid "Card & Typography Style"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:280
+msgid "Card Aesthetics"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:288
+#: widgets/class-team-widget.php:306
+#: widgets/class-stats-widget.php:245
+#: widgets/class-produce-grid-widget.php:286
+msgid "Card Background Color"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:168
+msgid "Card Link"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:180
+msgid "Cards"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:97
+msgid "Categories"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:132
+msgid "Category / Subtitle"
+msgstr ""
+
+#: widgets/class-hero-widget.php:258
+msgid "Center"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:208
+msgid "Circular"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:189
+msgid "Closed-Loop Renewal"
+msgstr ""
+
+#: widgets/class-stats-widget.php:210
+msgid "Column Gap"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:233
+#: widgets/class-team-widget.php:251
+#: widgets/class-stats-widget.php:190
+#: widgets/class-produce-grid-widget.php:231
+msgid "Columns"
+msgstr ""
+
+#: widgets/class-stats-widget.php:157
+msgid "Conserved via automated sub-surface drip sensors."
+msgstr ""
+
+#: widgets/class-hero-widget.php:250
+msgid "Content Alignment"
+msgstr ""
+
+#: widgets/class-stats-widget.php:135
+msgid "Context / Note"
+msgstr ""
+
+#: widgets/class-stats-widget.php:327
+msgid "Context Description Color"
+msgstr ""
+
+#: widgets/class-team-widget.php:219
+msgid "Coordinates solar irrigation, rainwater retention, and closed-loop farm logistics."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:123
+msgid "Crop Category"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:132
+msgid "Crop Name"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:184
+msgid "Crops are hand-harvested at peak nutritional ripeness in the early morning dew to preserve flavor and freshness."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:101
+msgid "Cultivated through living soil biology, rainwater conservation, and non-GMO heirloom seeds."
+msgstr ""
+
+#: widgets/class-team-widget.php:126
+msgid "Custom Repeater"
+msgstr ""
+
+#: widgets/class-hero-widget.php:287
+msgid "Dark Overlay Color"
+msgstr ""
+
+#: widgets/class-team-widget.php:170
+msgid "Department"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:95
+msgid "Departments"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:150
+#: widgets/class-hero-widget.php:362
+#: widgets/class-produce-grid-widget.php:150
+msgid "Description"
+msgstr ""
+
+#: widgets/class-hero-widget.php:371
+msgid "Description Color"
+msgstr ""
+
+#: widgets/class-team-widget.php:213
+msgid "Directs biological compost tea formulation and sub-surface microbial vitality tracking."
+msgstr ""
+
+#: widgets/class-stats-widget.php:167
+msgid "Diverted back into on-farm closed-loop composting."
+msgstr ""
+
+#: widgets/class-team-widget.php:127
+msgid "Dynamic Query (agrovia_team CPT)"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:200
+msgid "ECOSYSTEM RESTORATION"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:177
+msgid "Ecological Growth"
+msgstr ""
+
+#: widgets/class-team-widget.php:218
+msgid "Ecosystem Operations"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:93
+msgid "Edit Category"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:91
+msgid "Edit Department"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:44
+msgid "Edit Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:45
+msgid "Edit Team Member"
+msgstr ""
+
+#: widgets/class-hero-widget.php:117
+msgid "Enter brief description..."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:92
+#: widgets/class-process-timeline-widget.php:91
+#: widgets/class-team-widget.php:93
+#: widgets/class-produce-grid-widget.php:92
+msgid "Enter heading..."
+msgstr ""
+
+#: widgets/class-stats-widget.php:93
+msgid "Enter section heading..."
+msgstr ""
+
+#: widgets/class-hero-widget.php:92
+msgid "Enter your hero headline..."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:161
+#: widgets/class-approach-cards-widget.php:189
+#: widgets/class-approach-cards-widget.php:196
+#: widgets/class-approach-cards-widget.php:203
+#: widgets/class-approach-cards-widget.php:210
+msgid "Explore Method"
+msgstr ""
+
+#: widgets/class-hero-widget.php:149
+msgid "Explore Our Farm"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:381
+msgid "Explore →"
+msgstr ""
+
+#: widgets/class-team-widget.php:217
+msgid "Farm Operations Director"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:59
+msgid "Farmer profiles, agronomists, and agricultural specialists."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:100
+msgid "Farming is an interconnected biological loop. Every stage is calibrated to nourish human life while rejuvenating the earth."
+msgstr ""
+
+#: widgets/class-team-widget.php:172
+#: widgets/class-team-widget.php:206
+msgid "Field Agronomy"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:207
+msgid "Fresh Weekly"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:90
+msgid "From Soil to Harvest"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:176
+msgid "GROW"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:183
+msgid "Gentle Harvest"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:253
+#: widgets/class-team-widget.php:271
+#: widgets/class-produce-grid-widget.php:251
+msgid "Grid Gap"
+msgstr ""
+
+#: widgets/class-team-widget.php:243
+#: widgets/class-stats-widget.php:182
+#: widgets/class-produce-grid-widget.php:223
+msgid "Grid Layout"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:182
+msgid "HARVEST"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:125
+#: widgets/class-produce-grid-widget.php:187
+msgid "HEIRLOOM GRAINS"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:190
+msgid "Harvest residues are returned to on-farm composting beds, recharging soil nutrients for the next growing season."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:143
+#: widgets/class-produce-grid-widget.php:189
+msgid "Harvesting Now"
+msgstr ""
+
+#: widgets/class-stats-widget.php:90
+msgid "Heading"
+msgstr ""
+
+#: widgets/class-hero-widget.php:99
+msgid "Heading HTML Tag"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:142
+#: widgets/class-process-timeline-widget.php:165
+msgid "Healthy Soil"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:151
+msgid "Healthy crops begin beneath the surface. We use composting, cover cropping, and no-till practices to preserve microbial life."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:166
+msgid "Healthy crops begin beneath the surface. We use rich compost, cover crops, and microbial feeding to maintain fertile living earth."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:200
+msgid "Heirloom Vine Tomatoes"
+msgstr ""
+
+#: widgets/class-hero-widget.php:71
+msgid "Hero Content"
+msgstr ""
+
+#: widgets/class-stats-widget.php:105
+#: widgets/class-stats-widget.php:353
+msgid "Impact Statistics"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:312
+msgid "Index Number Color"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:170
+msgid "Item Link"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:193
+msgid "LEAFY GREENS"
+msgstr ""
+
+#: widgets/class-stats-widget.php:166
+msgid "LESS AGRI WASTE"
+msgstr ""
+
+#: widgets/class-stats-widget.php:156
+msgid "LESS WATER USED"
+msgstr ""
+
+#: widgets/class-stats-widget.php:307
+msgid "Label Color"
+msgstr ""
+
+#: widgets/class-hero-widget.php:216
+msgid "Layout & Background"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:225
+msgid "Layout & Columns"
+msgstr ""
+
+#: widgets/class-team-widget.php:163
+#: widgets/class-team-widget.php:205
+msgid "Lead Crop Manager"
+msgstr ""
+
+#: widgets/class-hero-widget.php:254
+msgid "Left"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:159
+msgid "Link Label"
+msgstr ""
+
+#: widgets/class-team-widget.php:212
+msgid "Living Soil Lab"
+msgstr ""
+
+#: widgets/class-stats-widget.php:82
+msgid "MEASURABLE IMPACT"
+msgstr ""
+
+#: widgets/class-hero-widget.php:89
+msgid "Main Heading"
+msgstr ""
+
+#: widgets/class-stats-widget.php:137
+msgid "Managed under strict organic and regenerative soil protocols."
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:119
+msgid "Member Details & Role"
+msgstr ""
+
+#: widgets/class-team-widget.php:152
+msgid "Member Name"
+msgstr ""
+
+#: widgets/class-stats-widget.php:115
+msgid "Metric / Number"
+msgstr ""
+
+#: widgets/class-stats-widget.php:125
+#: widgets/class-stats-widget.php:298
+msgid "Metric Label"
+msgstr ""
+
+#: widgets/class-stats-widget.php:269
+msgid "Metric Number"
+msgstr ""
+
+#: widgets/class-hero-widget.php:224
+msgid "Minimum Height"
+msgstr ""
+
+#: widgets/class-team-widget.php:318
+msgid "Name Color"
+msgstr ""
+
+#: widgets/class-stats-widget.php:162
+msgid "Native agroforestry hedgerows nurturing local pollinators."
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:96
+msgid "New Category Name"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:94
+msgid "New Department Name"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:43
+msgid "New Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:44
+msgid "New Team Member"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:50
+msgid "No farm practices found in Trash."
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:49
+msgid "No farm practices found."
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:50
+msgid "No team members found in Trash."
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:49
+msgid "No team members found."
+msgstr ""
+
+#: widgets/class-team-widget.php:423
+msgid "No team profiles published yet."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:172
+msgid "Non-GMO heritage varieties are selected and sown based on microclimate sensors, soil moisture data, and seasonal sunlight."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:225
+msgid "Number Accent Color"
+msgstr ""
+
+#: widgets/class-stats-widget.php:278
+msgid "Number Color"
+msgstr ""
+
+#: widgets/class-team-widget.php:135
+msgid "Number of Members"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:152
+msgid "Nutrient-dense ancient grain cultivated with regenerative water-management protocols."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:190
+msgid "Nutrient-rich heritage staple grown under natural rainfall retention systems."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:81
+msgid "OUR APPROACH"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:81
+msgid "OUR HARVEST"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:359
+msgid "Our Approach"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:333
+msgid "Our Harvest"
+msgstr ""
+
+#: widgets/class-hero-widget.php:186
+msgid "Our Sustainability"
+msgstr ""
+
+#: widgets/class-team-widget.php:361
+msgid "Our Team"
+msgstr ""
+
+#: widgets/class-team-widget.php:207
+msgid "Over 14 years managing heritage grain cultivation and integrated agroforestry."
+msgstr ""
+
+#: widgets/class-team-widget.php:225
+msgid "Oversees precision moisture sensor networks and microclimate satellite mapping."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:170
+msgid "PLANT"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:91
+msgid "Parent Category"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:92
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:89
+msgid "Parent Department"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:90
+msgid "Parent Department:"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:48
+msgid "Parent Practice:"
+msgstr ""
+
+#: widgets/class-team-widget.php:92
+msgid "People make sustainable agriculture possible."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:196
+msgid "Peppery wild salad leaves nurtured with compost tea and organic mulch."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:123
+msgid "Pillar Number"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:141
+msgid "Pillar Title"
+msgstr ""
+
+#: widgets/class-team-widget.php:188
+msgid "Portrait Photo"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:171
+msgid "Precision Sowing"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:195
+msgid "Precision drip sensors and rainwater harvesting reduce unnecessary water consumption by over 40%."
+msgstr ""
+
+#: widgets/class-hero-widget.php:159
+msgid "Primary Button Link"
+msgstr ""
+
+#: widgets/class-hero-widget.php:147
+msgid "Primary Button Text"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:113
+msgid "Produce Items"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:182
+msgid "Produce List"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:159
+msgid "Produce Photo"
+msgstr ""
+
+#: widgets/class-team-widget.php:114
+msgid "Profiles Source"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:188
+msgid "RESTORE"
+msgstr ""
+
+#: widgets/class-stats-widget.php:92
+msgid "Real Environmental Stewardship"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:143
+#: widgets/class-approach-cards-widget.php:187
+msgid "Regenerative"
+msgstr ""
+
+#: widgets/class-stats-widget.php:152
+msgid "Regenerative land restored to natural biological fertility."
+msgstr ""
+
+#: widgets/class-hero-widget.php:262
+msgid "Right"
+msgstr ""
+
+#: widgets/class-team-widget.php:161
+msgid "Role / Title"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:138
+msgid "Role / Title:"
+msgstr ""
+
+#: widgets/class-team-widget.php:338
+msgid "Role Color"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:133
+#: widgets/class-process-timeline-widget.php:164
+msgid "SOIL"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:134
+#: widgets/class-approach-cards-widget.php:186
+msgid "SOIL HEALTH"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:87
+msgid "Search Departments"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:47
+msgid "Search Farm Practices"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:89
+msgid "Search Practice Categories"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:48
+msgid "Search Team Members"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:141
+msgid "Season / Status"
+msgstr ""
+
+#: widgets/class-hero-widget.php:196
+msgid "Secondary Button Link"
+msgstr ""
+
+#: widgets/class-hero-widget.php:184
+msgid "Secondary Button Text"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:99
+#: widgets/class-process-timeline-widget.php:98
+#: widgets/class-team-widget.php:100
+#: widgets/class-produce-grid-widget.php:99
+msgid "Section Description"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:71
+#: widgets/class-process-timeline-widget.php:70
+#: widgets/class-team-widget.php:72
+#: widgets/class-stats-widget.php:72
+#: widgets/class-produce-grid-widget.php:71
+msgid "Section Header"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:89
+#: widgets/class-process-timeline-widget.php:88
+#: widgets/class-team-widget.php:90
+#: widgets/class-produce-grid-widget.php:89
+msgid "Section Heading"
+msgstr ""
+
+#: widgets/class-team-widget.php:179
+msgid "Short Bio"
+msgstr ""
+
+#: widgets/class-hero-widget.php:137
+msgid "Show Primary Button"
+msgstr ""
+
+#: widgets/class-hero-widget.php:174
+msgid "Show Secondary Button"
+msgstr ""
+
+#: widgets/class-team-widget.php:224
+msgid "Smart Farming"
+msgstr ""
+
+#: widgets/class-team-widget.php:211
+msgid "Soil Microbiologist"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:178
+msgid "Solar-powered drip irrigation delivers calibrated hydration directly to plant root zones without runoff or waste."
+msgstr ""
+
+#: widgets/class-team-widget.php:122
+msgid "Source Type"
+msgstr ""
+
+#: widgets/class-team-widget.php:181
+msgid "Specializes in heritage grain varieties, crop rotation sequences, and natural pest suppression."
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:131
+msgid "Stage Badge"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:213
+msgid "Stage Badge Color"
+msgstr ""
+
+#: widgets/class-stats-widget.php:145
+msgid "Statistics Items"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:205
+msgid "Step Aesthetics"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:149
+msgid "Step Description"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:122
+msgid "Step Number"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:140
+msgid "Step Title"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:158
+msgid "Steps"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:201
+msgid "Summer Peak"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:202
+msgid "Sun-ripened heritage varieties pollinated by on-farm native bee colonies."
+msgstr ""
+
+#: widgets/class-hero-widget.php:114
+msgid "Supporting Text"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:61
+msgid "Sustainable agriculture practices and regenerative farming methods."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:206
+msgid "Sweet Genovese Basil"
+msgstr ""
+
+#: widgets/class-team-widget.php:82
+msgid "THE GROWERS & STEWARDS"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:80
+msgid "THE GROWING CYCLE"
+msgstr ""
+
+#: widgets/class-stats-widget.php:161
+msgid "TREES PLANTED"
+msgstr ""
+
+#: widgets/class-stats-widget.php:80
+msgid "Tagline / Badge"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:79
+#: widgets/class-process-timeline-widget.php:78
+#: widgets/class-team-widget.php:80
+#: widgets/class-produce-grid-widget.php:79
+msgid "Tagline / Eyebrow"
+msgstr ""
+
+#: widgets/class-team-widget.php:199
+msgid "Team Members"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:112
+msgid "Timeline Steps"
+msgstr ""
+
+#: widgets/class-hero-widget.php:333
+msgid "Title"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:324
+#: widgets/class-hero-widget.php:342
+#: widgets/class-process-timeline-widget.php:237
+#: widgets/class-produce-grid-widget.php:298
+msgid "Title Color"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:134
+#: widgets/class-produce-grid-widget.php:188
+msgid "Traditional Red Rice"
+msgstr ""
+
+#: widgets/class-hero-widget.php:304
+msgid "Typography & Colors"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:94
+msgid "Update Category"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:92
+msgid "Update Department"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:199
+msgid "VEGETABLES"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:45
+msgid "View Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:46
+msgid "View Team Member"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:193
+msgid "WATER MANAGEMENT"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:194
+msgid "Water Smart"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:202
+msgid "We create diverse agricultural landscapes where crops, pollinators, wildlife and native trees thrive together."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:152
+msgid "We focus on restoring soil biological health and maintaining productive farmland for future generations."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:188
+msgid "We focus on restoring soil health and biological activity to maintain fertile farmland for generations."
+msgstr ""
+
+#: widgets/class-hero-widget.php:116
+msgid "We grow better food through farming practices that work with nature, not against it."
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:101
+msgid "We restore ecological harmony through regenerative practices designed to feed communities while sustaining our living soil."
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:91
+msgid "What We Grow"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:194
+msgid "Wild Agrovia Arugula"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:195
+msgid "Year-round"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:207
+msgid "ZERO WASTE"
+msgstr ""
+
+#: widgets/class-hero-widget.php:82
+msgid "e.g. 100% REGENERATIVE AGRICULTURE"
+msgstr ""
+
+#: widgets/class-stats-widget.php:128
+msgid "e.g. ACRES FARMED"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:139
+msgid "e.g. Lead Crop Manager"
+msgstr ""
+
+#: widgets/class-stats-widget.php:83
+msgid "e.g. MEASURABLE IMPACT"
+msgstr ""
+
+#: widgets/class-approach-cards-widget.php:82
+msgid "e.g. OUR APPROACH"
+msgstr ""
+
+#: widgets/class-produce-grid-widget.php:82
+msgid "e.g. OUR HARVEST"
+msgstr ""
+
+#: widgets/class-team-widget.php:83
+msgid "e.g. THE GROWERS & STEWARDS"
+msgstr ""
+
+#: widgets/class-process-timeline-widget.php:81
+msgid "e.g. THE GROWING CYCLE"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:40
+msgctxt "Add New on Toolbar"
+msgid "Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:41
+msgctxt "Add New on Toolbar"
+msgid "Team Member"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:39
+msgctxt "Admin Menu text"
+msgid "Farm Practices"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:40
+msgctxt "Admin Menu text"
+msgid "Farmers & Team"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:51
+msgctxt "Overrides the “Featured Image” phrase for this post type"
+msgid "Member Portrait"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:51
+msgctxt "Overrides the “Featured Image” phrase for this post type"
+msgid "Practice Cover Image"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:53
+msgctxt "Overrides the “Remove featured image” phrase for this post type"
+msgid "Remove cover image"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:53
+msgctxt "Overrides the “Remove featured image” phrase for this post type"
+msgid "Remove portrait image"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:52
+msgctxt "Overrides the “Set featured image” phrase for this post type"
+msgid "Set cover image"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:52
+msgctxt "Overrides the “Set featured image” phrase for this post type"
+msgid "Set portrait image"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:54
+msgctxt "Overrides the “Use as featured image” phrase for this post type"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:54
+msgctxt "Overrides the “Use as featured image” phrase for this post type"
+msgid "Use as portrait image"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:37
+msgctxt "Post type general name"
+msgid "Farm Practices"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:38
+msgctxt "Post type general name"
+msgid "Farmers & Team"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:38
+msgctxt "Post type singular name"
+msgid "Farm Practice"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:39
+msgctxt "Post type singular name"
+msgid "Team Member"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:56
+msgctxt "Screen reader text for the filter links"
+msgid "Filter practices list"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:55
+msgctxt "The post type archive label used in nav menus"
+msgid "Practice Archives"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:85
+msgctxt "taxonomy general name"
+msgid "Departments"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:87
+msgctxt "taxonomy general name"
+msgid "Practice Categories"
+msgstr ""
+
+#: includes/post-types/class-team-cpt.php:86
+msgctxt "taxonomy singular name"
+msgid "Department"
+msgstr ""
+
+#: includes/post-types/class-farm-practice-cpt.php:88
+msgctxt "taxonomy singular name"
+msgid "Practice Category"
+msgstr ""
+

@@ -1,0 +1,40 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Node & Package Manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Composer
+/vendor/
+composer.lock
+
+# Build & Release Artifacts
+dist/
+build/
+release/
+*.zip
+*.tar.gz
+
+# LocalWP & Environment
+.local/
+*.log
+scratch/

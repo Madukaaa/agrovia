@@ -1,0 +1,48 @@
+{
+	"title": "Agrovia Global Header",
+	"type": "header",
+	"location": "header",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "entire_site"
+		}
+	],
+	"structure": {
+		"type": "container",
+		"settings": {
+			"content_width": "boxed",
+			"boxed_width": { "size": 1280, "unit": "px" },
+			"flex_direction": "row",
+			"justify_content": "space-between",
+			"align_items": "center",
+			"background_color": "transparent"
+		},
+		"elements": [
+			{
+				"widgetType": "theme-site-logo",
+				"settings": {
+					"align": "left"
+				}
+			},
+			{
+				"widgetType": "nav-menu",
+				"settings": {
+					"menu": "primary",
+					"layout": "horizontal",
+					"pointer": "underline",
+					"color_menu_item": "var(--agrovia-color-primary)",
+					"color_menu_item_hover": "var(--agrovia-color-earth)"
+				}
+			},
+			{
+				"widgetType": "button",
+				"settings": {
+					"text": "Visit Farm",
+					"link": { "url": "/contact" },
+					"button_type": "primary"
+				}
+			}
+		]
+	}
+}

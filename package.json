@@ -1,0 +1,22 @@
+{
+  "name": "agrovia",
+  "version": "1.0.0",
+  "description": "Agrovia - Sustainable Agriculture WordPress Theme",
+  "private": true,
+  "author": "Maduka Karunathilake",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "lint:php": "/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-8.2.29+0/bin/darwin-arm64/bin/php scripts/static-checks.php",
+    "lint:js": "node -c assets/js/navigation.js assets/js/main.js assets/js/customizer.js",
+    "generate:pot": "/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-8.2.29+0/bin/darwin-arm64/bin/php scripts/generate-pot.php",
+    "test": "/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-8.2.29+0/bin/darwin-arm64/bin/php scripts/static-checks.php",
+    "package:release": "/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-8.2.29+0/bin/darwin-arm64/bin/php scripts/package-release.php"
+  },
+  "keywords": [
+    "wordpress-theme",
+    "agriculture",
+    "sustainability",
+    "elementor",
+    "woocommerce"
+  ]
+}

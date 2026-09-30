@@ -1,0 +1,42 @@
+{
+	"title": "Agrovia Single Product Template",
+	"type": "product",
+	"location": "single",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "product"
+		}
+	],
+	"structure": {
+		"container": {
+			"max_width": "1280px",
+			"padding": { "top": "60px", "bottom": "80px" }
+		},
+		"columns": [
+			{
+				"width": "50%",
+				"elements": [
+					{ "widget": "woocommerce-product-images" }
+				]
+			},
+			{
+				"width": "50%",
+				"elements": [
+					{ "widget": "woocommerce-product-title" },
+					{ "widget": "woocommerce-product-rating" },
+					{ "widget": "woocommerce-product-price" },
+					{ "widget": "woocommerce-product-short-description" },
+					{ "widget": "woocommerce-product-add-to-cart" },
+					{ "widget": "woocommerce-product-meta" }
+				]
+			}
+		],
+		"tabs_section": {
+			"widget": "woocommerce-product-data-tabs"
+		},
+		"related_section": {
+			"widget": "woocommerce-product-related"
+		}
+	}
+}

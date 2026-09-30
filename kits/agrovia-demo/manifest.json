@@ -1,0 +1,165 @@
+{
+	"$schema": "https://elementor.com/schemas/kit-manifest/v1.json",
+	"name": "Agrovia — Sustainable Agriculture Demo Kit",
+	"title": "Agrovia Demo Kit",
+	"version": "1.0.0",
+	"author": "Maduka Karunathilake",
+	"description": "Production-ready Elementor Website Kit for sustainable agriculture, regenerative farming, soil health stewardship, and agri-tech brands.",
+	"theme": {
+		"name": "Agrovia",
+		"version": "1.0.0",
+		"slug": "agrovia"
+	},
+	"plugins": [
+		{
+			"name": "Elementor",
+			"slug": "elementor",
+			"version": "3.20.0",
+			"required": true
+		},
+		{
+			"name": "Agrovia Core",
+			"slug": "agrovia-core",
+			"version": "1.0.0",
+			"required": true,
+			"source": "companion-plugin/agrovia-core"
+		},
+		{
+			"name": "WooCommerce",
+			"slug": "woocommerce",
+			"version": "8.5.0",
+			"required": false
+		}
+	],
+	"site_settings": {
+		"settings_file": "site-settings.json",
+		"has_custom_colors": true,
+		"has_custom_fonts": true,
+		"has_theme_style": true
+	},
+	"theme_builder": {
+		"templates": [
+			{
+				"title": "Agrovia Global Header",
+				"type": "header",
+				"location": "header",
+				"conditions": [
+					"include/general"
+				],
+				"file": "templates/header.json"
+			},
+			{
+				"title": "Agrovia Global Footer",
+				"type": "footer",
+				"location": "footer",
+				"conditions": [
+					"include/general"
+				],
+				"file": "templates/footer.json"
+			},
+			{
+				"title": "Agrovia Single Post Template",
+				"type": "single-post",
+				"location": "single",
+				"conditions": [
+					"include/singular/post"
+				],
+				"file": "templates/single-post.json"
+			},
+			{
+				"title": "Agrovia Archive & Journal Template",
+				"type": "archive",
+				"location": "archive",
+				"conditions": [
+					"include/archive"
+				],
+				"file": "templates/archive.json"
+			},
+			{
+				"title": "Agrovia 404 Error Template",
+				"type": "error-404",
+				"location": "single",
+				"conditions": [
+					"include/not_found"
+				],
+				"file": "templates/404.json"
+			},
+			{
+				"title": "Agrovia Single Product Template",
+				"type": "product",
+				"location": "single",
+				"conditions": [
+					"include/singular/product"
+				],
+				"file": "templates/single-product.json"
+			}
+		]
+	},
+	"content": {
+		"pages": [
+			{
+				"title": "Home",
+				"slug": "home",
+				"is_front_page": true,
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "About Our Mission",
+				"slug": "about",
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Our Farm & Ecosystem",
+				"slug": "our-farm",
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Sustainable Practices",
+				"slug": "sustainability",
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Fresh Harvest & Produce",
+				"slug": "products",
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Environmental Impact Report",
+				"slug": "impact",
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Farm Journal",
+				"slug": "journal",
+				"is_posts_page": true,
+				"template": "elementor_header_footer"
+			},
+			{
+				"title": "Contact & Visit",
+				"slug": "contact",
+				"template": "elementor_header_footer"
+			}
+		],
+		"taxonomies": [
+			{
+				"taxonomy": "practice_category",
+				"terms": [
+					"Soil Health",
+					"Water Conservation",
+					"Renewable Energy",
+					"Biodiversity",
+					"Circular Economy"
+				]
+			},
+			{
+				"taxonomy": "team_department",
+				"terms": [
+					"Field Agronomy",
+					"Living Soil Lab",
+					"Ecosystem Operations",
+					"Smart Farming IoT"
+				]
+			}
+		]
+	}
+}

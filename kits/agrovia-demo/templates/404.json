@@ -1,0 +1,25 @@
+{
+	"title": "Agrovia 404 Error Template",
+	"type": "error-404",
+	"location": "single",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "not_found"
+		}
+	],
+	"structure": {
+		"container": {
+			"max_width": "680px",
+			"alignment": "center",
+			"padding": { "top": "100px", "bottom": "120px" }
+		},
+		"elements": [
+			{ "widget": "heading", "text": "404", "tag": "h1" },
+			{ "widget": "heading", "text": "Fallow Ground", "tag": "h2" },
+			{ "widget": "text-editor", "text": "The page you are looking for has been relocated, replanted, or does not exist." },
+			{ "widget": "search-form" },
+			{ "widget": "button", "text": "Return to Farm Home", "link": { "url": "/" } }
+		]
+	}
+}

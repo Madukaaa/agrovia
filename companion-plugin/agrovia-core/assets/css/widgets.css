@@ -1,0 +1,678 @@
+/**
+ * Agrovia Core — Custom Elementor Widgets Stylesheet
+ *
+ * Dedicated, encapsulated styles for Agrovia Elementor widgets.
+ * Designed to work harmoniously with theme CSS variables and degrade gracefully
+ * if active theme changes.
+ *
+ * @package AgroviaCore
+ * @since 1.0.0
+ */
+
+/* ==========================================================================
+   0. Design Variable Fallbacks & Shared Tokens
+   ========================================================================== */
+:root {
+	--agrovia-forest: var(--agrovia-color-primary, var(--color-deep-forest, #18392B));
+	--agrovia-moss: var(--agrovia-color-secondary, var(--color-dark-moss, #2C4A36));
+	--agrovia-sage: var(--agrovia-color-accent, var(--color-muted-sage, #9DAF95));
+	--agrovia-cream: var(--agrovia-color-cream, var(--color-warm-cream, #F3EEDF));
+	--agrovia-earth: var(--agrovia-color-earth, var(--color-earth-brown, #7A6048));
+	--agrovia-sand: var(--agrovia-color-sand, var(--color-soft-sand, #D8CBB7));
+	--agrovia-offwhite: var(--agrovia-color-bg, var(--color-off-white, #F8F7F2));
+	--agrovia-charcoal: var(--agrovia-color-text, var(--color-charcoal, #242724));
+	--agrovia-font-display: var(--agrovia-font-heading, var(--font-display, 'Cormorant Garamond', Georgia, serif));
+	--agrovia-font-body: var(--agrovia-font-body, var(--font-body, 'Inter', -apple-system, BlinkMacSystemFont, sans-serif));
+	--agrovia-radius: var(--agrovia-radius-md, var(--radius-md, 8px));
+	--agrovia-transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Shared Section Header */
+.agrovia-section-header {
+	margin-bottom: clamp(2rem, 4vw, 3.5rem);
+	text-align: left;
+}
+
+.agrovia-section-eyebrow {
+	display: inline-block;
+	font-family: var(--agrovia-font-body);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--agrovia-earth);
+	margin-bottom: 0.75rem;
+}
+
+.agrovia-section-title {
+	font-family: var(--agrovia-font-display);
+	font-size: clamp(2rem, 3.5vw, 3.25rem);
+	font-weight: 600;
+	line-height: 1.15;
+	color: var(--agrovia-forest);
+	margin: 0 0 1rem 0;
+	letter-spacing: -0.01em;
+}
+
+.agrovia-section-desc {
+	font-family: var(--agrovia-font-body);
+	font-size: clamp(1rem, 1.2vw, 1.125rem);
+	line-height: 1.65;
+	color: #5A5F58;
+	max-width: 680px;
+	margin: 0;
+}
+
+/* ==========================================================================
+   1. Hero Widget
+   ========================================================================== */
+.agrovia-hero-widget {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.agrovia-hero-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: clamp(3rem, 6vw, 6rem) 0;
+}
+
+.agrovia-hero-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(24, 57, 43, 0.45);
+	pointer-events: none;
+	z-index: 1;
+}
+
+.agrovia-hero-container {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	max-width: var(--container-max, 1280px);
+	margin: 0 auto;
+	padding: 0 clamp(1.25rem, 3vw, 2.5rem);
+}
+
+.agrovia-hero-content {
+	max-width: 780px;
+}
+
+.agrovia-hero-badge {
+	display: inline-block;
+	font-family: var(--agrovia-font-body);
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--agrovia-cream);
+	background: rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border: 1px solid rgba(243, 238, 223, 0.3);
+	padding: 0.4rem 1rem;
+	border-radius: 9999px;
+	margin-bottom: 1.5rem;
+}
+
+.agrovia-hero-title {
+	font-family: var(--agrovia-font-display);
+	font-size: clamp(2.75rem, 6vw, 5.25rem);
+	font-weight: 600;
+	line-height: 1.05;
+	color: #FFFFFF;
+	margin: 0 0 1.5rem 0;
+	letter-spacing: -0.02em;
+	text-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+}
+
+.agrovia-hero-description {
+	font-family: var(--agrovia-font-body);
+	font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
+	line-height: 1.6;
+	color: rgba(248, 247, 242, 0.92);
+	margin: 0 0 2.25rem 0;
+	max-width: 620px;
+}
+
+.agrovia-hero-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1rem;
+}
+
+.agrovia-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	font-family: var(--agrovia-font-body);
+	font-size: 0.9375rem;
+	font-weight: 600;
+	padding: 0.875rem 1.75rem;
+	border-radius: var(--agrovia-radius);
+	text-decoration: none;
+	transition: var(--agrovia-transition);
+	cursor: pointer;
+}
+
+.agrovia-btn-primary {
+	background-color: var(--agrovia-forest);
+	color: #FFFFFF;
+	border: 1px solid var(--agrovia-forest);
+}
+
+.agrovia-btn-primary:hover,
+.agrovia-btn-primary:focus-visible {
+	background-color: var(--agrovia-moss);
+	border-color: var(--agrovia-moss);
+	color: #FFFFFF;
+	transform: translateY(-2px);
+}
+
+.agrovia-btn-outline {
+	background: rgba(255, 255, 255, 0.08);
+	color: #FFFFFF;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(4px);
+}
+
+.agrovia-btn-outline:hover,
+.agrovia-btn-outline:focus-visible {
+	background-color: #FFFFFF;
+	color: var(--agrovia-forest);
+	border-color: #FFFFFF;
+	transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   2. Stats Widget
+   ========================================================================== */
+.agrovia-stats-widget {
+	width: 100%;
+	padding: clamp(2.5rem, 4vw, 4.5rem) 0;
+}
+
+.agrovia-stats-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.5rem;
+}
+
+.agrovia-stat-item {
+	background-color: var(--agrovia-offwhite);
+	border: 1px solid rgba(122, 96, 72, 0.15);
+	border-radius: var(--agrovia-radius);
+	padding: clamp(1.75rem, 2.5vw, 2.5rem);
+	transition: var(--agrovia-transition);
+}
+
+.agrovia-stat-item:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 12px 28px rgba(24, 57, 43, 0.08);
+	border-color: rgba(122, 96, 72, 0.3);
+}
+
+.agrovia-stat-number {
+	font-family: var(--agrovia-font-display);
+	font-size: clamp(2.5rem, 4vw, 3.75rem);
+	font-weight: 700;
+	line-height: 1;
+	color: var(--agrovia-forest);
+	margin-bottom: 0.5rem;
+	letter-spacing: -0.02em;
+}
+
+.agrovia-stat-label {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--agrovia-earth);
+	margin-bottom: 0.75rem;
+}
+
+.agrovia-stat-desc {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.9375rem;
+	line-height: 1.5;
+	color: #5A5F58;
+	margin: 0;
+}
+
+/* ==========================================================================
+   3. Approach Cards Widget
+   ========================================================================== */
+.agrovia-approach-widget {
+	width: 100%;
+	padding: clamp(2.5rem, 4vw, 5rem) 0;
+}
+
+.agrovia-approach-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.5rem;
+}
+
+.agrovia-approach-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--agrovia-offwhite);
+	border: 1px solid rgba(122, 96, 72, 0.15);
+	border-radius: var(--agrovia-radius);
+	padding: clamp(1.75rem, 2.5vw, 2.25rem);
+	transition: var(--agrovia-transition);
+	position: relative;
+}
+
+.agrovia-approach-card:hover {
+	transform: translateY(-4px);
+	border-color: var(--agrovia-forest);
+	box-shadow: 0 16px 32px rgba(24, 57, 43, 0.08);
+}
+
+.agrovia-approach-card-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+
+.agrovia-approach-tag {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--agrovia-earth);
+}
+
+.agrovia-approach-number {
+	font-family: var(--agrovia-font-display);
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--agrovia-sage);
+}
+
+.agrovia-approach-title {
+	font-family: var(--agrovia-font-display);
+	font-size: clamp(1.375rem, 2vw, 1.75rem);
+	font-weight: 600;
+	color: var(--agrovia-forest);
+	margin: 0 0 0.875rem 0;
+	line-height: 1.2;
+}
+
+.agrovia-approach-desc {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	color: #5A5F58;
+	margin: 0 0 1.5rem 0;
+}
+
+.agrovia-approach-card-footer {
+	margin-top: auto;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(122, 96, 72, 0.1);
+}
+
+.agrovia-approach-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-family: var(--agrovia-font-body);
+	font-size: 0.875rem;
+	font-weight: 600;
+	color: var(--agrovia-forest);
+	text-decoration: none;
+	transition: var(--agrovia-transition);
+}
+
+.agrovia-approach-link:hover {
+	color: var(--agrovia-earth);
+	gap: 0.75rem;
+}
+
+/* ==========================================================================
+   4. Process Timeline Widget
+   ========================================================================== */
+.agrovia-process-widget {
+	width: 100%;
+	padding: clamp(2.5rem, 4vw, 5rem) 0;
+}
+
+.agrovia-timeline-track {
+	position: relative;
+	margin-top: 2rem;
+}
+
+.agrovia-timeline-steps {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1.25rem;
+	position: relative;
+	z-index: 2;
+}
+
+.agrovia-timeline-step {
+	display: flex;
+	flex-direction: column;
+}
+
+.agrovia-step-marker {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+	margin-bottom: 1.25rem;
+}
+
+.agrovia-step-number {
+	font-family: var(--agrovia-font-display);
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--agrovia-earth);
+}
+
+.agrovia-step-badge {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: var(--agrovia-moss);
+	color: #FFFFFF;
+	padding: 0.25rem 0.625rem;
+	border-radius: 9999px;
+}
+
+.agrovia-step-card {
+	background: var(--agrovia-offwhite);
+	border: 1px solid rgba(122, 96, 72, 0.15);
+	border-radius: var(--agrovia-radius);
+	padding: 1.5rem 1.25rem;
+	height: 100%;
+	transition: var(--agrovia-transition);
+}
+
+.agrovia-step-card:hover {
+	transform: translateY(-3px);
+	border-color: var(--agrovia-moss);
+	box-shadow: 0 10px 24px rgba(24, 57, 43, 0.06);
+}
+
+.agrovia-step-title {
+	font-family: var(--agrovia-font-display);
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: var(--agrovia-forest);
+	margin: 0 0 0.5rem 0;
+}
+
+.agrovia-step-desc {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.875rem;
+	line-height: 1.6;
+	color: #5A5F58;
+	margin: 0;
+}
+
+/* ==========================================================================
+   5. Produce Grid Widget
+   ========================================================================== */
+.agrovia-produce-widget {
+	width: 100%;
+	padding: clamp(2.5rem, 4vw, 5rem) 0;
+}
+
+.agrovia-produce-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.5rem;
+}
+
+.agrovia-produce-card {
+	background: #FFFFFF;
+	border: 1px solid rgba(122, 96, 72, 0.15);
+	border-radius: var(--agrovia-radius);
+	overflow: hidden;
+	transition: var(--agrovia-transition);
+	display: flex;
+	flex-direction: column;
+}
+
+.agrovia-produce-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 16px 36px rgba(24, 57, 43, 0.09);
+	border-color: rgba(24, 57, 43, 0.3);
+}
+
+.agrovia-produce-media {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	background-color: var(--agrovia-sand);
+}
+
+.agrovia-produce-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.agrovia-produce-card:hover .agrovia-produce-media img {
+	transform: scale(1.05);
+}
+
+.agrovia-season-pill {
+	position: absolute;
+	top: 0.875rem;
+	right: 0.875rem;
+	background: rgba(24, 57, 43, 0.85);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	color: #FFFFFF;
+	font-family: var(--agrovia-font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	padding: 0.3rem 0.75rem;
+	border-radius: 9999px;
+}
+
+.agrovia-produce-body {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.agrovia-produce-cat {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--agrovia-earth);
+	margin-bottom: 0.5rem;
+}
+
+.agrovia-produce-title {
+	font-family: var(--agrovia-font-display);
+	font-size: 1.375rem;
+	font-weight: 600;
+	color: var(--agrovia-forest);
+	margin: 0 0 0.625rem 0;
+	line-height: 1.25;
+}
+
+.agrovia-produce-title a {
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.agrovia-produce-title a:hover {
+	color: var(--agrovia-earth);
+}
+
+.agrovia-produce-desc {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.875rem;
+	line-height: 1.6;
+	color: #5A5F58;
+	margin: 0;
+}
+
+/* ==========================================================================
+   6. Team Widget
+   ========================================================================== */
+.agrovia-team-widget {
+	width: 100%;
+	padding: clamp(2.5rem, 4vw, 5rem) 0;
+}
+
+.agrovia-team-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.5rem;
+}
+
+.agrovia-team-card {
+	background: var(--agrovia-offwhite);
+	border: 1px solid rgba(122, 96, 72, 0.15);
+	border-radius: var(--agrovia-radius);
+	overflow: hidden;
+	transition: var(--agrovia-transition);
+	display: flex;
+	flex-direction: column;
+}
+
+.agrovia-team-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 16px 32px rgba(24, 57, 43, 0.08);
+	border-color: rgba(24, 57, 43, 0.25);
+}
+
+.agrovia-team-media {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	overflow: hidden;
+	background-color: var(--agrovia-sand);
+}
+
+.agrovia-team-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.agrovia-team-card:hover .agrovia-team-img {
+	transform: scale(1.04);
+}
+
+.agrovia-team-dept-pill {
+	position: absolute;
+	bottom: 0.875rem;
+	left: 0.875rem;
+	background: rgba(243, 238, 223, 0.92);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	color: var(--agrovia-forest);
+	font-family: var(--agrovia-font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	padding: 0.3rem 0.75rem;
+	border-radius: 9999px;
+}
+
+.agrovia-team-body {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.agrovia-team-name {
+	font-family: var(--agrovia-font-display);
+	font-size: 1.375rem;
+	font-weight: 600;
+	color: var(--agrovia-forest);
+	margin: 0 0 0.375rem 0;
+	line-height: 1.2;
+}
+
+.agrovia-team-role {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	color: var(--agrovia-earth);
+	margin-bottom: 0.75rem;
+}
+
+.agrovia-team-bio {
+	font-family: var(--agrovia-font-body);
+	font-size: 0.875rem;
+	line-height: 1.55;
+	color: #5A5F58;
+	margin: 0;
+}
+
+.agrovia-team-empty {
+	grid-column: 1 / -1;
+	text-align: center;
+	padding: 2rem;
+	color: #5A5F58;
+	font-style: italic;
+}
+
+/* ==========================================================================
+   7. Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 1024px) {
+	.agrovia-stats-grid,
+	.agrovia-approach-grid,
+	.agrovia-produce-grid,
+	.agrovia-team-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.agrovia-timeline-steps {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 767px) {
+	.agrovia-stats-grid,
+	.agrovia-approach-grid,
+	.agrovia-produce-grid,
+	.agrovia-team-grid,
+	.agrovia-timeline-steps {
+		grid-template-columns: 1fr;
+	}
+
+	.agrovia-hero-buttons {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.agrovia-btn {
+		width: 100%;
+		text-align: center;
+	}
+}

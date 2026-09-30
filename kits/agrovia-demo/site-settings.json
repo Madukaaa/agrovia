@@ -1,0 +1,197 @@
+{
+	"settings": {
+		"container_width": {
+			"unit": "px",
+			"size": 1280
+		},
+		"space_between_widgets": {
+			"unit": "px",
+			"size": 24
+		},
+		"page_title_selector": "h1.entry-title",
+		"system_colors": [
+			{
+				"_id": "primary",
+				"title": "Primary (Deep Forest)",
+				"color": "#18392b"
+			},
+			{
+				"_id": "secondary",
+				"title": "Secondary (Dark Moss)",
+				"color": "#2c4a36"
+			},
+			{
+				"_id": "text",
+				"title": "Text (Charcoal)",
+				"color": "#242724"
+			},
+			{
+				"_id": "accent",
+				"title": "Accent (Muted Sage)",
+				"color": "#9daf95"
+			}
+		],
+		"custom_colors": [
+			{
+				"_id": "cream",
+				"title": "Warm Cream",
+				"color": "#f3eedf"
+			},
+			{
+				"_id": "earth",
+				"title": "Earth Brown",
+				"color": "#7a6048"
+			},
+			{
+				"_id": "sand",
+				"title": "Soft Sand",
+				"color": "#d8cbb7"
+			},
+			{
+				"_id": "background",
+				"title": "Off White Background",
+				"color": "#f8f7f2"
+			},
+			{
+				"_id": "surface",
+				"title": "Surface White",
+				"color": "#ffffff"
+			},
+			{
+				"_id": "border",
+				"title": "Warm Border",
+				"color": "#e2dfd2"
+			},
+			{
+				"_id": "success",
+				"title": "Success Green",
+				"color": "#2d6a4f"
+			},
+			{
+				"_id": "warning",
+				"title": "Warning Amber",
+				"color": "#b7791f"
+			},
+			{
+				"_id": "error",
+				"title": "Error Crimson",
+				"color": "#9b2226"
+			},
+			{
+				"_id": "info",
+				"title": "Info Blue",
+				"color": "#2a6f97"
+			}
+		],
+		"system_typography": [
+			{
+				"_id": "primary",
+				"title": "Primary Heading",
+				"typography_font_family": "Cormorant Garamond",
+				"typography_font_weight": "600",
+				"typography_font_size": {
+					"unit": "rem",
+					"size": 2.5
+				},
+				"typography_line_height": {
+					"unit": "em",
+					"size": 1.15
+				}
+			},
+			{
+				"_id": "secondary",
+				"title": "Secondary Subheading",
+				"typography_font_family": "Cormorant Garamond",
+				"typography_font_weight": "600",
+				"typography_font_size": {
+					"unit": "rem",
+					"size": 1.875
+				},
+				"typography_line_height": {
+					"unit": "em",
+					"size": 1.25
+				}
+			},
+			{
+				"_id": "text",
+				"title": "Body Text",
+				"typography_font_family": "Inter",
+				"typography_font_weight": "400",
+				"typography_font_size": {
+					"unit": "rem",
+					"size": 1
+				},
+				"typography_line_height": {
+					"unit": "em",
+					"size": 1.65
+				}
+			},
+			{
+				"_id": "accent",
+				"title": "Accent & Buttons",
+				"typography_font_family": "Inter",
+				"typography_font_weight": "600",
+				"typography_font_size": {
+					"unit": "rem",
+					"size": 0.9375
+				},
+				"typography_letter_spacing": {
+					"unit": "px",
+					"size": 0.5
+				}
+			}
+		],
+		"body_background_background": "classic",
+		"body_background_color": "#f8f7f2",
+		"body_color": "#242724",
+		"link_normal_color": "#18392b",
+		"link_hover_color": "#7a6048",
+		"h1_color": "#18392b",
+		"h1_typography_typography": "custom",
+		"h1_typography_font_family": "Cormorant Garamond",
+		"h1_typography_font_weight": "600",
+		"h1_typography_line_height": {
+			"unit": "em",
+			"size": 1.12
+		},
+		"h2_color": "#18392b",
+		"h2_typography_typography": "custom",
+		"h2_typography_font_family": "Cormorant Garamond",
+		"h2_typography_font_weight": "600",
+		"h2_typography_line_height": {
+			"unit": "em",
+			"size": 1.18
+		},
+		"h3_color": "#18392b",
+		"h3_typography_typography": "custom",
+		"h3_typography_font_family": "Cormorant Garamond",
+		"h3_typography_font_weight": "600",
+		"h3_typography_line_height": {
+			"unit": "em",
+			"size": 1.25
+		},
+		"button_text_color": "#ffffff",
+		"button_background_color": "#18392b",
+		"button_border_radius": {
+			"unit": "px",
+			"top": 8,
+			"right": 8,
+			"bottom": 8,
+			"left": 8
+		},
+		"button_padding": {
+			"unit": "px",
+			"top": 14,
+			"right": 28,
+			"bottom": 14,
+			"left": 28
+		},
+		"button_typography_typography": "custom",
+		"button_typography_font_family": "Inter",
+		"button_typography_font_weight": "600",
+		"button_typography_font_size": {
+			"unit": "rem",
+			"size": 0.9375
+		}
+	}
+}

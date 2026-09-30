@@ -1,0 +1,26 @@
+{
+	"title": "Agrovia Archive & Journal Template",
+	"type": "archive",
+	"location": "archive",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "archive"
+		}
+	],
+	"structure": {
+		"container": {
+			"max_width": "1280px",
+			"padding": { "top": "60px", "bottom": "80px" }
+		},
+		"header": {
+			"widget": "theme-archive-title",
+			"eyebrow": "JOURNAL & INSIGHTS"
+		},
+		"loop": {
+			"widget": "archive-posts",
+			"columns": 3,
+			"pagination": "numbers"
+		}
+	}
+}

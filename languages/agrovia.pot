@@ -1,0 +1,1153 @@
+# Copyright (C) 2026 Maduka Karunathilake
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Agrovia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://agrovia.local\n"
+"Last-Translator: Maduka Karunathilake <support@agrovia.local>\n"
+"Language-Team: English <support@agrovia.local>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-30T21:53:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Agrovia POT Generator 1.0.0\n"
+"X-Domain: agrovia\n"
+
+#: inc/template-tags.php:199
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single.php:33
+msgid "&larr; Previous Story"
+msgstr ""
+
+#: inc/template-tags.php:92
+msgid ", "
+msgstr ""
+
+#: page-templates/content-demo-market.php:110
+msgid "/ 12 oz square"
+msgstr ""
+
+#: page-templates/content-demo-market.php:58
+msgid "/ 2 lb bunch"
+msgstr ""
+
+#: page-templates/content-demo-market.php:93
+msgid "/ 5 lb sack"
+msgstr ""
+
+#: page-templates/content-demo-market.php:75
+msgid "/ 500 ml"
+msgstr ""
+
+#: inc/template-functions.php:235
+msgid "1-Click Demo Import with Elementor & WooCommerce"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:173
+msgid "100% Standalone Architecture"
+msgstr ""
+
+#: page-templates/content-demo-market.php:44
+msgid "100% certified organic, pesticide-free produce grown in living mycorrhizal soils and packed in eco-friendly biodegradable crates."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:208
+msgid "100% of PHP files guarded with direct access checks, nonce validations, capability authorization, and output escaping."
+msgstr ""
+
+#: 404.php:20
+msgid "404 Error"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:185
+msgid "6 Custom Elementor Widgets"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:21
+msgid "Across Global Commercial Supply Chains"
+msgstr ""
+
+#: page-templates/content-demo-market.php:60
+#: page-templates/content-demo-market.php:77
+#: page-templates/content-demo-market.php:95
+#: page-templates/content-demo-market.php:112
+msgid "Add to Basket"
+msgstr ""
+
+#: inc/widgets.php:23
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: inc/widgets.php:35
+msgid "Add widgets here to appear in your site footer."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:66
+msgid "Aerial Architecture"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:101
+msgid "Agri-Logistics & Cold Storage"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:67
+msgid "Agri-Tech & Drone Hardware Integration"
+msgstr ""
+
+#: inc/template-functions.php:132
+#: page-templates/content-demo-showcase.php:89
+msgid "Agri-Tech & Drones"
+msgstr ""
+
+#: inc/template-functions.php:110
+msgid "Agriculture Corp."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:111
+msgid "Agronomic Advisory & Seed Genetics"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:18
+msgid "Agrovia Demo 02 &bull; Corporate Agribusiness"
+msgstr ""
+
+#: page-templates/content-demo-services.php:18
+msgid "Agrovia Demo 03 &bull; Farming Services"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:18
+msgid "Agrovia Demo 04 &bull; Agri-Tech & Smart Drones"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:18
+msgid "Agrovia Demo 05 &bull; 100% Certified Organic Farm"
+msgstr ""
+
+#: page-templates/content-demo-market.php:18
+msgid "Agrovia Demo 06 &bull; Farm-to-Table Harvest Market"
+msgstr ""
+
+#: inc/template-functions.php:197
+msgid "Agrovia Demos"
+msgstr ""
+
+#: home.php:22
+msgid "Agrovia Journal"
+msgstr ""
+
+#: inc/compatibility.php:47
+msgid "Agrovia requires at least PHP version %1$s. You are running version %2$s. Please upgrade your PHP configuration."
+msgstr ""
+
+#: inc/compatibility.php:65
+msgid "Agrovia requires at least WordPress version %1$s. You are running version %2$s. Please update WordPress."
+msgstr ""
+
+#: page-templates/content-demo-market.php:32
+#: page-templates/content-demo-organic.php:32
+#: page-templates/content-demo-services.php:32
+#: page-templates/content-demo-corporate.php:32
+#: page-templates/content-demo-drones.php:32
+msgid "All 6 Demos"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:86
+msgid "All Concepts (6)"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:79
+msgid "Automated dawn-to-dusk flight paths cover thousands of acres per day with obstacle avoidance and automated battery swap docks."
+msgstr ""
+
+#: page-templates/content-demo-services.php:88
+msgid "Automated telemetry water delivery systems delivering moisture directly to the root zone, cutting operational water expenditure by up to 45%."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:20
+msgid "Autonomous Aerial Intelligence &"
+msgstr ""
+
+#: inc/template-functions.php:133
+msgid "Autonomous Aerial Sensing & Soil IoT"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:78
+msgid "Autonomous Waypoint Patrols"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:101
+msgid "Book Farm Experience"
+msgstr ""
+
+#: page-templates/content-demo-services.php:119
+msgid "Book a complimentary 30-minute acreage assessment with our agronomy operations director."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:64
+msgid "Browse 6 Demos Below"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:243
+msgid "Build Your Sustainable Agriculture Site with Agrovia"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:221
+msgid "Canonical Design System"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:39
+msgid "Canopy NDVI Index"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:49
+msgid "Carbon Insetting"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "Categorized in %1$s"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:51
+msgid "Centimeter Navigation"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:80
+msgid "Choose Your Handcrafted Homepage Demo"
+msgstr ""
+
+#: page-templates/content-demo-market.php:126
+msgid "Choose Your Harvest Box"
+msgstr ""
+
+#: inc/template-functions.php:200
+msgid "Close Demo Switcher"
+msgstr ""
+
+#: page-templates/content-demo-market.php:72
+msgid "Cold-Pressed"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:46
+msgid "Cold-chain facilities"
+msgstr ""
+
+#: inc/enqueue.php:132
+msgid "Collapse menu"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:66
+msgid "Commercial Capabilities"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:78
+msgid "Commercial Grain Aggregation"
+msgstr ""
+
+#: page-templates/content-demo-services.php:20
+msgid "Comprehensive Field Agronomy &"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:122
+msgid "Connect with our corporate agronomy team to discuss institutional commodity supply and carbon insetting."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:24
+msgid "Connecting institutional agricultural investment, commercial grain infrastructure, and zero-deforestation soil health frameworks across 145,000 contracted acres worldwide."
+msgstr ""
+
+#: inc/customizer.php:83
+#: template-parts/header/site.php:60
+msgid "Contact"
+msgstr ""
+
+#: template-parts/content-single.php:89
+msgid "Contributor to the Agrovia regenerative farming journal, documenting sustainable agricultural methods and ecosystem restoration."
+msgstr ""
+
+#: inc/template-functions.php:112
+msgid "Corporate"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:87
+msgid "Corporate & Agribusiness"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:29
+msgid "Corporate Inquiries"
+msgstr ""
+
+#: inc/template-functions.php:222
+msgid "Currently viewing"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Customize the footer copyright text."
+msgstr ""
+
+#: page-templates/content-demo-organic.php:79
+msgid "Dedicated wildflower buffer strips provide continuous nectar sources for wild solitary bees, honeybees, butterflies, and songbirds."
+msgstr ""
+
+#: page-templates/content-demo-market.php:21
+msgid "Delivered Fresh to Your Kitchen Table."
+msgstr ""
+
+#: page-templates/content-demo-services.php:44
+msgid "Delivering field-tested expertise that drives soil vitality, reduces input costs, and accelerates harvest yields across every growing season."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:85
+msgid "Demo categories filter"
+msgstr ""
+
+#: inc/template-functions.php:188
+msgid "Demos"
+msgstr ""
+
+#: inc/template-functions.php:138
+msgid "Designed for smart farming startups, agricultural drone operators, multispectral canopy imaging, and automated IoT sensor monitoring."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:79
+msgid "Direct-from-grower aggregation of Non-GMO grains, certified organic pulses, and heritage oilseeds with certified batch traceability."
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Displays the floating demo preview trigger and off-canvas drawer."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:44
+msgid "Drone Flight Speed"
+msgstr ""
+
+#: page-templates/content-demo-services.php:77
+msgid "Drone Multispectral Scouting"
+msgstr ""
+
+#: inc/template-tags.php:129
+#: template-parts/content-page.php:59
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:50
+msgid "Elementor Widgets"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:68
+msgid "Empower your modern farm with autonomous flight hardware, AI canopy analysis, and precision variable-rate prescription maps."
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Enable Floating Demo Switcher"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:161
+msgid "Engineered for Performance"
+msgstr ""
+
+#: inc/template-functions.php:127
+msgid "Engineered for contract farming, machinery operators, soil testing laboratories, irrigation consultants, and agronomy advisory firms."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:67
+msgid "Enterprise Agriculture Solutions"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:120
+msgid "Equip Your Agribusiness with Precision Tech"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:81
+msgid "Every concept is purpose-built for a specific sector of modern agribusiness, organic farming, and ecological stewardship. 1-click importable with Elementor."
+msgstr ""
+
+#: inc/enqueue.php:131
+msgid "Expand menu"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:98
+msgid "Experience Agrovia Organic Farm First-Hand"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:35
+msgid "Explore 6 handcrafted multi-concept demos built with standalone classic/hybrid architecture, deep Elementor builder integration, and refined WooCommerce store templates."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:246
+msgid "Explore All Demos Above"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:29
+msgid "Explore Drone Technology"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:29
+msgid "Explore Farm Practices"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:67
+msgid "Explore Features"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:100
+msgid "Export direct GeoTIFF and Shapefile prescription layers compatible with John Deere, Case IH, and AGCO variable-rate sprayers."
+msgstr ""
+
+#: inc/template-functions.php:155
+msgid "Farm-to-Table E-Commerce & Harvest Market"
+msgstr ""
+
+#: inc/template-functions.php:121
+#: page-templates/content-demo-showcase.php:88
+msgid "Farming Services"
+msgstr ""
+
+#: page-templates/content-demo-market.php:43
+msgid "Featured Regenerative Farm Goods"
+msgstr ""
+
+#: inc/template-functions.php:122
+msgid "Field Solutions & Agronomy Consulting"
+msgstr ""
+
+#: home.php:24
+msgid "Field updates, soil science, regenerative practices, and stories from our harvest."
+msgstr ""
+
+#: page-templates/content-demo-market.php:74
+msgid "First cold-pressing of Mission and Frantoio olives with peppery polyphenol finish."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:90
+msgid "Five-band calibrated sensors record chlorophyll absorption, pinpointing moisture stress, nitrogen depletion, and pest infestations."
+msgstr ""
+
+#: inc/template-functions.php:101
+msgid "Flagship Demo"
+msgstr ""
+
+#: template-parts/footer/site.php:32
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/menus.php:24
+msgid "Footer Navigation"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Footer Tagline / Copyright"
+msgstr ""
+
+#: inc/widgets.php:33
+msgid "Footer Widget Area"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:58
+msgid "Framework Bloat"
+msgstr ""
+
+#: page-templates/content-demo-market.php:55
+msgid "Fresh Harvest"
+msgstr ""
+
+#: page-templates/content-demo-services.php:24
+msgid "From advanced soil microbiome sequencing and variable-rate planting to automated harvest equipment fleets — our certified agronomists provide end-to-end operational farming solutions."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:68
+msgid "Full-spectrum agribusiness infrastructure engineered for ESG compliance, crop resilience, and transparent farm-to-port logistics."
+msgstr ""
+
+#: page-templates/content-demo-services.php:55
+msgid "Full-spectrum biological, chemical, and physical soil testing providing actionable maps for organic amendment and fungal-to-bacterial balancing."
+msgstr ""
+
+#: page-templates/content-demo-services.php:66
+msgid "GPS Variable-Rate Seeding"
+msgstr ""
+
+#: page-templates/content-demo-market.php:124
+msgid "Get seasonal organic vegetables, orchard fruit, and pantry essentials delivered directly to your doorstep each Tuesday."
+msgstr ""
+
+#: inc/template-functions.php:111
+msgid "Global Agribusiness & Enterprise Innovation"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:44
+msgid "Global Hubs"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:54
+msgid "Grower Partners"
+msgstr ""
+
+#: inc/customizer.php:130
+#: inc/customizer.php:199
+#: template-parts/footer/site.php:27
+msgid "Growing food. Restoring nature."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:24
+msgid "Harness real-time thermal NDVI crop imaging, automated flight path waypoint scouting, and deep-soil moisture probes to eliminate input waste and maximize acreage efficiency."
+msgstr ""
+
+#: page-templates/content-demo-services.php:108
+msgid "Harvest Equipment Fleet & Operators"
+msgstr ""
+
+#: page-templates/content-demo-market.php:20
+msgid "Harvested at Dawn."
+msgstr ""
+
+#: page-templates/content-demo-organic.php:21
+msgid "Harvesting Pure Organic Nutrition"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Header CTA Button Label"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Header CTA Button URL"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Header Options"
+msgstr ""
+
+#: page-templates/content-demo-market.php:56
+msgid "Heirloom Rainbow Carrots"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:54
+msgid "Heritage Seed Conservation"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:41
+msgid "High Vigor / Optimal"
+msgstr ""
+
+#: inc/template-functions.php:134
+msgid "High-Tech"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:89
+msgid "Holistic mob grazing moves livestock daily across diverse perennial pastures, stimulating root exudates and rapid carbon drawdown."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:42
+msgid "Home Concepts"
+msgstr ""
+
+#: page-templates/content-demo-market.php:42
+msgid "In Season Now"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:186
+msgid "Includes Hero with slider, Live Stats, Approach Cards, Process Timeline, Produce Grid, and Dual-Source Agronomy Team widgets."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:56
+msgid "Independent family farms"
+msgstr ""
+
+#: inc/template-functions.php:160
+msgid "Integrated with WooCommerce for organic grocery delivery, seasonal harvest box subscriptions, artisanal farm goods, and pantry essentials."
+msgstr ""
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: page-templates/content-demo-organic.php:99
+msgid "Join our seasonal farm tours, permaculture weekend workshops, or regenerative dining gatherings."
+msgstr ""
+
+#: comments.php:79
+msgid "Join the Conversation"
+msgstr ""
+
+#: index.php:27
+msgid "Journal, stories, and scientific insights from our regenerative farm."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:127
+msgid "Launch Live Preview"
+msgstr ""
+
+#: inc/template-tags.php:112
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: comments.php:80
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Live Demo Switcher"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:145
+msgid "Live Preview"
+msgstr ""
+
+#: inc/template-functions.php:99
+msgid "Main Agrovia Home"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Manage the floating multi-concept live demo preview switcher."
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Manage the header CTA button without editing PHP files."
+msgstr ""
+
+#: template-parts/header/site.php:38
+msgid "Menu"
+msgstr ""
+
+#: page-templates/content-demo-services.php:109
+msgid "Modern GPS-guided combine harvesters, low-compaction grain trailers, and seasoned operators ready for rapid seasonal contract dispatch."
+msgstr ""
+
+#: page-templates/content-demo-organic.php:66
+msgid "Multi-tiered orchards interplanted with culinary herbs, berry bushes, and nitrogen-fixing legumes that mimic natural forest dynamics."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:89
+msgid "Multispectral NDVI Imaging"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:78
+msgid "Native Pollinator Corridors"
+msgstr ""
+
+#: inc/template-functions.php:154
+msgid "Natural Food Store"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:51
+msgid "Net emissions reduced"
+msgstr ""
+
+#: template-parts/pagination.php:24
+msgid "Next"
+msgstr ""
+
+#: single.php:34
+msgid "Next Story &rarr;"
+msgstr ""
+
+#: template-parts/pagination.php:25
+msgid "Next page"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:20
+msgid "Nurturing Living Soils &"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:26
+msgid "Official ThemeForest Live Preview"
+msgstr ""
+
+#: comments.php:36
+msgid "One response on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/template-functions.php:180
+msgid "Open Demo Previews Switcher"
+msgstr ""
+
+#: inc/template-functions.php:145
+msgid "Organic"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:90
+msgid "Organic & Permaculture"
+msgstr ""
+
+#: page-templates/content-demo-market.php:91
+msgid "Organic Ancient Einkorn Flour"
+msgstr ""
+
+#: inc/template-functions.php:143
+msgid "Organic Farm & Living"
+msgstr ""
+
+#: page-templates/content-demo-services.php:97
+msgid "Organic Pest & Biocontrol Strategy"
+msgstr ""
+
+#: template-parts/pagination.php:27
+msgid "Page"
+msgstr ""
+
+#: 404.php:21
+msgid "Page Not Found in the Field"
+msgstr ""
+
+#: template-parts/content-single.php:64
+#: template-parts/content-page.php:45
+#: front-page.php:47
+msgid "Pages:"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:121
+msgid "Partner with an Industry Leader in Sustainable Agribusiness"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:65
+msgid "Perennial Food Forests"
+msgstr ""
+
+#: inc/template-functions.php:149
+msgid "Perfect for family-owned certified organic farms, regenerative permaculture hubs, heirloom orchards, farm stay retreats, and workshops."
+msgstr ""
+
+#: inc/template-functions.php:144
+msgid "Permaculture & Regenerative Food Forests"
+msgstr ""
+
+#: inc/accessibility.php:52
+msgid "Posts navigation"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:24
+msgid "Practicing closed-loop permaculture, heritage seed conservation, and humane pasture rotation on 1,400 acres of certified organic sanctuary."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:79
+msgid "Pre-Built Concepts"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:46
+msgid "Pre-Built Pages"
+msgstr ""
+
+#: page-templates/content-demo-services.php:87
+msgid "Precision Drip & Irrigation Auditing"
+msgstr ""
+
+#: page-templates/content-demo-services.php:67
+msgid "Precision RTK guidance systems delivering calibrated plant densities matched dynamically to soil moisture capacity and topography contours."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:99
+msgid "Prescription Map Generation"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:55
+msgid "Preserving over 120 varieties of open-pollinated, drought-adapted heirloom vegetable and grain seeds passed down through generations."
+msgstr ""
+
+#: template-parts/pagination.php:19
+msgid "Previous"
+msgstr ""
+
+#: template-parts/pagination.php:20
+msgid "Previous page"
+msgstr ""
+
+#: template-parts/header/site.php:35
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/menus.php:23
+msgid "Primary Navigation"
+msgstr ""
+
+#: page-templates/content-demo-services.php:43
+msgid "Professional Agricultural Solutions"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:112
+msgid "Proprietary drought-tolerant cultivar research and field agronomy support providing contracted growers with optimal crop yields."
+msgstr ""
+
+#: page-templates/content-demo-drones.php:49
+msgid "RTK Accuracy"
+msgstr ""
+
+#: page-templates/content-demo-market.php:107
+msgid "Raw Apiary"
+msgstr ""
+
+#: page-templates/content-demo-market.php:108
+msgid "Raw Wildflower Honeycomb"
+msgstr ""
+
+#: template-parts/content.php:57
+msgid "Read Article"
+msgstr ""
+
+#: template-parts/content.php:56
+msgid "Read more about %s"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:244
+msgid "Ready for production deployment. Includes full documentation, companion plugin, 6 custom widgets, and complete Elementor kit."
+msgstr ""
+
+#: page-templates/content-demo-services.php:118
+msgid "Ready to Optimize Your Farm Operations?"
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid "Ready to publish your first article? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:39
+msgid "Regenerative Acres"
+msgstr ""
+
+#: inc/template-functions.php:100
+msgid "Regenerative Agriculture & Ecosystem"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:43
+msgid "Regenerative Farm Ecosystems"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:123
+msgid "Request Drone Demo"
+msgstr ""
+
+#: page-templates/content-demo-services.php:121
+msgid "Request Farm Consultation"
+msgstr ""
+
+#: page-templates/content-demo-services.php:29
+msgid "Request Service Quote"
+msgstr ""
+
+#: search.php:27
+msgid "Results for: “%s”"
+msgstr ""
+
+#: 404.php:32
+msgid "Return to Home"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:56
+msgid "Root Zone Ideal"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:88
+msgid "Rotational Pasture Grazing"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:20
+msgid "Scaling Regenerative Agriculture"
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:124
+msgid "Schedule Corporate Consultation"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:121
+msgid "Schedule a live hardware demonstration and request telemetry API access today."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:88
+msgid "Scope 3 Carbon Insetting"
+msgstr ""
+
+#: search.php:22
+msgid "Search Results"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:207
+msgid "Security & Direct Access Guards"
+msgstr ""
+
+#: inc/template-functions.php:123
+msgid "Services"
+msgstr ""
+
+#: page-templates/content-demo-market.php:29
+msgid "Shop Weekly Harvest"
+msgstr ""
+
+#: page-templates/content-demo-market.php:24
+msgid "Shop seasonal regenerative produce crates, cold-pressed artisanal olive oils, heirloom stoneground flours, and raw wildflower honey directly from our fields."
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Show Header CTA Button"
+msgstr ""
+
+#: inc/widgets.php:21
+#: sidebar.php:19
+msgid "Sidebar"
+msgstr ""
+
+#: page-templates/content-demo-market.php:73
+msgid "Single-Estate Extra Virgin Olive Oil"
+msgstr ""
+
+#: inc/accessibility.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:42
+msgid "Soil & Stewardship"
+msgstr ""
+
+#: page-templates/content-demo-services.php:54
+msgid "Soil Health & Microbiome Profiling"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:54
+msgid "Soil Moisture Sensor"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:111
+msgid "Solar-powered LoRaWAN telemetry stakes monitor soil moisture at 10cm, 30cm, and 60cm depths alongside EC salinity levels."
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: page-templates/content-demo-services.php:21
+msgid "Specialized Contract Farming Services"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:54
+msgid "Standalone Theme"
+msgstr ""
+
+#: page-templates/content-demo-market.php:90
+msgid "Stoneground"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:21
+msgid "Sub-Centimeter Soil IoT Telemetry"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:231
+msgid "Sub-Second Loading Speed"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:110
+msgid "Sub-Surface IoT Soil Probes"
+msgstr ""
+
+#: page-templates/content-demo-services.php:78
+msgid "Sub-inch aerial crop health diagnostics identifying nutrient deficiencies, fungal outbreaks, and weed pressure weeks before visible on foot."
+msgstr ""
+
+#: page-templates/content-demo-market.php:123
+msgid "Subscribe to Weekly Farm Box Delivery"
+msgstr ""
+
+#: page-templates/content-demo-drones.php:46
+msgid "Surveying Parcel B-12"
+msgstr ""
+
+#: front-page.php:62
+msgid "Sustainable Agriculture"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:31
+msgid "Sustainable Agriculture & Agri-Tech"
+msgstr ""
+
+#: page-templates/content-demo-market.php:57
+msgid "Sweet, crisp heritage roots harvested fresh with crisp aromatic green tops."
+msgstr ""
+
+#: inc/template-functions.php:216
+msgid "Switch Demo &rarr;"
+msgstr ""
+
+#: inc/template-functions.php:198
+msgid "Switch between 6 pre-built live concepts"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:222
+msgid "Synchronized tokens across tokens.json, theme.json, CSS custom properties, and Elementor Global Colors for unified aesthetics."
+msgstr ""
+
+#: inc/template-tags.php:102
+msgid "Tagged %1$s"
+msgstr ""
+
+#: template-parts/content-single.php:73
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-functions.php:116
+msgid "Tailored for agricultural enterprises, international grain trading, corporate farm cooperatives, and green agricultural finance institutions."
+msgstr ""
+
+#: page-templates/content-demo-services.php:98
+msgid "Targeted beneficial predator releases, companion planting barriers, and OMRI-certified botanical sprays maintaining pest balance naturally."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:102
+msgid "Temperature-controlled storage networks and multi-modal freight routing engineered to preserve crop nutrition and minimize post-harvest loss."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:30
+msgid "The Premium WordPress Theme for"
+msgstr ""
+
+#: inc/template-functions.php:105
+msgid "The complete flagship agricultural experience featuring split hero, live impact stats, sustainable farm practices, produce grid, and agronomy team."
+msgstr ""
+
+#: 404.php:23
+msgid "The page you requested may have been relocated, harvested, or does not exist in our farm records. Try searching below or return to the home page."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:89
+msgid "Third-party audited soil carbon measurement protocols helping corporate food brands meet science-based sustainability targets."
+msgstr ""
+
+#: template-parts/header/site.php:36
+msgid "Toggle navigation menu"
+msgstr ""
+
+#: inc/menus.php:100
+msgid "Toggle submenu for %s"
+msgstr ""
+
+#: page-templates/content-demo-market.php:92
+msgid "Unbleached ancient grain flour milled slow on granite stones to preserve vital wheat germ."
+msgstr ""
+
+#: page-templates/content-demo-market.php:109
+msgid "Unfiltered, unpasteurized honeycomb cut fresh from our permanent pollinator apiaries."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:174
+msgid "Unlike themes that require Astra or Hello Elementor, Agrovia is completely self-sufficient with zero third-party parent theme dependencies."
+msgstr ""
+
+#: page-templates/content-demo-corporate.php:41
+msgid "Verified organic footprint"
+msgstr ""
+
+#: inc/template-functions.php:233
+msgid "View All Demos & Features Hub"
+msgstr ""
+
+#: template-parts/content-search.php:50
+msgid "View Result"
+msgstr ""
+
+#: template-parts/content-search.php:49
+msgid "View result: %s"
+msgstr ""
+
+#: inc/woocommerce.php:148
+msgid "View your shopping cart"
+msgstr ""
+
+#: page-templates/content-demo-organic.php:44
+msgid "We view the farm not as an industrial factory, but as an interconnected botanical web where soil microbes, pollinators, crops, and humans thrive together."
+msgstr ""
+
+#: page-templates/content-demo-services.php:42
+msgid "What We Do"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:162
+msgid "Why Agrovia Outperforms Marketplace Alternatives"
+msgstr ""
+
+#: inc/template-functions.php:156
+msgid "WooCommerce"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:91
+msgid "WooCommerce Harvest Store"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:197
+msgid "WooCommerce Store Ready"
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:198
+msgid "Zero fragile template override debt. Isolated styles load only on store pages for optimal site speed and full cart/checkout compatibility."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:232
+msgid "Zero global JavaScript frameworks, preconnected font hints, script deferral, and high-priority LCP image optimization."
+msgstr ""
+
+#: page-templates/content-demo-showcase.php:163
+msgid "Zero parent-theme lock-in, commercial-grade security safeguards, and verified WCAG 2.1 AA accessibility out of the box."
+msgstr ""
+
+#: inc/woocommerce.php:151
+msgid "items in cart"
+msgstr ""
+
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s response on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/footer/site.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: searchform.php:22
+msgctxt "placeholder"
+msgid "Search crops, practices, insights…"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgctxt "post date"
+msgid "Published on %s"
+msgstr ""
+
+#: searchform.php:34
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Submit search"
+msgstr ""
+

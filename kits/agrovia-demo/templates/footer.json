@@ -1,0 +1,42 @@
+{
+	"title": "Agrovia Global Footer",
+	"type": "footer",
+	"location": "footer",
+	"conditions": [
+		{
+			"type": "include",
+			"name": "entire_site"
+		}
+	],
+	"structure": {
+		"type": "container",
+		"settings": {
+			"content_width": "boxed",
+			"boxed_width": { "size": 1280, "unit": "px" },
+			"background_color": "#18392b",
+			"padding": { "top": 80, "bottom": 40, "unit": "px" }
+		},
+		"columns": [
+			{
+				"title": "Brand & Mission",
+				"elements": ["theme-site-logo", "text-editor", "social-icons"]
+			},
+			{
+				"title": "Farming Pillars",
+				"elements": ["nav-menu-practices"]
+			},
+			{
+				"title": "Produce & Harvest",
+				"elements": ["nav-menu-products"]
+			},
+			{
+				"title": "Stewardship & Visits",
+				"elements": ["contact-details", "newsletter-form"]
+			}
+		],
+		"bottom_bar": {
+			"copyright": "© 2026 Agrovia Sustainable Agriculture. Growing food. Restoring nature.",
+			"legal_links": ["Privacy Policy", "Terms of Stewardship", "Regenerative Certification"]
+		}
+	}
+}

@@ -1,0 +1,156 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"name": "Agrovia Demo Content Package",
+	"version": "1.0.0",
+	"pages": [
+		{
+			"id": "page_home",
+			"title": "Home",
+			"slug": "home",
+			"sections": [
+				{
+					"name": "Hero Section",
+					"widget": "agrovia_hero",
+					"settings": {
+						"badge_text": "100% REGENERATIVE AGRICULTURE",
+						"title": "Growing food.\nRestoring nature.",
+						"description": "We grow better food through farming practices that work with nature, not against it.",
+						"primary_btn_text": "Explore Our Farm",
+						"primary_btn_url": "/our-farm",
+						"secondary_btn_text": "Our Sustainability",
+						"secondary_btn_url": "/sustainability"
+					}
+				},
+				{
+					"name": "Impact Statistics",
+					"widget": "agrovia_stats",
+					"settings": {
+						"tagline": "MEASURABLE STEWARDSHIP",
+						"heading": "Real Environmental Impact",
+						"stats": [
+							{ "number": "2,500+", "label": "ACRES FARMED", "desc": "Regenerative land restored to biological fertility." },
+							{ "number": "42%", "label": "LESS WATER USED", "desc": "Conserved via automated sub-surface drip sensors." },
+							{ "number": "18,000+", "label": "TREES PLANTED", "desc": "Native agroforestry hedgerows nurturing pollinators." },
+							{ "number": "65%", "label": "LESS AGRI WASTE", "desc": "Diverted back into on-farm closed-loop composting." }
+						]
+					}
+				},
+				{
+					"name": "Our Approach",
+					"widget": "agrovia_approach_cards",
+					"settings": {
+						"tagline": "OUR APPROACH",
+						"heading": "A different way to grow.",
+						"description": "We focus on ecological balance and resilient farmland.",
+						"columns": 4
+					}
+				},
+				{
+					"name": "Agricultural Process",
+					"widget": "agrovia_process_timeline",
+					"settings": {
+						"tagline": "THE GROWING CYCLE",
+						"heading": "From Soil to Harvest",
+						"description": "Farming is an interconnected biological loop."
+					}
+				},
+				{
+					"name": "What We Grow",
+					"widget": "agrovia_produce_grid",
+					"settings": {
+						"tagline": "OUR HARVEST",
+						"heading": "What We Grow",
+						"description": "Cultivated through living soil biology, rainwater conservation, and non-GMO heirloom seeds."
+					}
+				},
+				{
+					"name": "Team & Farmers",
+					"widget": "agrovia_team",
+					"settings": {
+						"tagline": "THE GROWERS & STEWARDS",
+						"heading": "People make sustainable agriculture possible.",
+						"data_source": "dynamic",
+						"posts_per_page": 4
+					}
+				},
+				{
+					"name": "Final Call to Action",
+					"widget": "agrovia_hero",
+					"settings": {
+						"badge_text": "JOIN THE MOVEMENT",
+						"title": "The future of farming starts with the choices we make today.",
+						"description": "Partner with us in pioneering restorative, nutrient-dense agriculture.",
+						"primary_btn_text": "Discover Our Approach",
+						"primary_btn_url": "/sustainability",
+						"secondary_btn_text": "Work With Us",
+						"secondary_btn_url": "/contact"
+					}
+				}
+			]
+		},
+		{
+			"id": "page_about",
+			"title": "About Our Mission",
+			"slug": "about",
+			"sections": [
+				{
+					"name": "About Hero",
+					"headline": "Farming with the future in mind.",
+					"subheading": "OUR ORIGIN & VALUES"
+				},
+				{
+					"name": "Our Story",
+					"content": "Agrovia was founded on a simple principle: agriculture must restore rather than deplete ecosystems. Operating across 2,500+ acres, we bridge traditional agronomy with cutting-edge soil microbiology."
+				},
+				{
+					"name": "Core Pillars",
+					"values": ["Responsibility", "Stewardship", "Innovation", "Transparency"]
+				}
+			]
+		},
+		{
+			"id": "page_sustainability",
+			"title": "Sustainable Practices",
+			"slug": "sustainability",
+			"sections": [
+				{
+					"name": "Sustainability Header",
+					"headline": "Living systems, not chemical shortcuts."
+				},
+				{
+					"name": "Pillar Breakdown",
+					"pillars": [
+						"Soil Health & Compost Biology",
+						"Precision Rainwater & Drip Irrigation",
+						"100% On-Farm Solar Power",
+						"Biodiversity & Pollinator Habitats",
+						"Zero-Waste Closed-Loop Upcycling"
+					]
+				}
+			]
+		},
+		{
+			"id": "page_products",
+			"title": "Fresh Harvest & Produce",
+			"slug": "products",
+			"categories": ["Heirloom Grains", "Leafy Greens", "Orchard Fruits", "Culinary Herbs"]
+		},
+		{
+			"id": "page_impact",
+			"title": "Environmental Impact Report",
+			"slug": "impact",
+			"metrics": [
+				{ "title": "Topsoil Organic Carbon", "gain": "+3.4%" },
+				{ "title": "Aquifer Groundwater Saved", "volume": "12.8M Liters" },
+				{ "title": "Renewable Clean Energy", "kwh": "145,000 kWh Generated" }
+			]
+		},
+		{
+			"id": "page_contact",
+			"title": "Contact & Farm Visits",
+			"slug": "contact",
+			"fields": ["Name", "Email", "Inquiry Type", "Message"],
+			"inquiry_types": ["General Inquiries", "Wholesale Produce", "Educational Farm Tours", "Research Partnerships"]
+		}
+	]
+}
